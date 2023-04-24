@@ -26,10 +26,9 @@
     const anchor = document.createElement('a')
 
     anchor.setAttribute('href', `#${id}`)
-    anchor.setAttribute('title', id)
-    anchor.setAttribute('aria-label', id)
+    anchor.innerText = id
 
-    item.parentNode.insertBefore(anchor, item)
-    anchor.appendChild(item)
+    item.innerText = ''
+    item.appendChild(anchor)
   }
 })()

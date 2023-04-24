@@ -77,6 +77,10 @@ ul.languages .selected {
     font-weight: bold;
 }
 
+h2 a {
+  text-decoration: none;
+}
+
 h2, nav a {
   text-transform: capitalize;
 }
@@ -125,7 +129,7 @@ header h1 {
 <td><a target="_blank" href="https://t.me/bigfont">Ανοιχτή συνομιλία</a></td>
 </tr>
 <tr class="odd">
-<td>Ατενίζω</td>
+<td>Νταντά</td>
 <td><a target="_blank" href="viber://pa?chatURI=<URI>.">Ανοιχτή συνομιλία</a></td>
 </tr>
 <tr class="even">
@@ -157,7 +161,7 @@ header h1 {
 </li>
 </ul>
 <p>[Επικοινωνήστε μαζί μας] (#) εάν ενδιαφέρεστε. } Όταν θέλετε να γίνετε μέλος.</p>
-<p>Last modified: 24/04/2023 01:21:25</p>
+<p>Last modified: 24/04/2023 14:00:19</p>
 </footer>
 <script>
 "use strict";
@@ -205,10 +209,9 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
       if (!id) return;
       var anchor = document.createElement('a');
       anchor.setAttribute('href', "#".concat(id));
-      anchor.setAttribute('title', id);
-      anchor.setAttribute('aria-label', id);
-      item.parentNode.insertBefore(anchor, item);
-      anchor.appendChild(item);
+      anchor.innerText = id;
+      item.innerText = '';
+      item.appendChild(anchor);
     }
   } catch (err) {
     _iterator3.e(err);

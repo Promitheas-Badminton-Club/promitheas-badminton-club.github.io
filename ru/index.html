@@ -77,6 +77,10 @@ ul.languages .selected {
     font-weight: bold;
 }
 
+h2 a {
+  text-decoration: none;
+}
+
 h2, nav a {
   text-transform: capitalize;
 }
@@ -157,7 +161,7 @@ Bring your comfortable clothing and sports shoes. We'll take care of the rest.
 </li>
 </ul>
 <p><a href="#Contact">Contact us</a> if you’re interested. <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScvI7oXn48nWsaYVnrHrSuTerLB_syHnN8hekXRkTmSbtbIAw/viewform">Register</a> when you want to become a member.</p>
-<p>Last modified: 24/04/2023 01:21:25</p>
+<p>Last modified: 24/04/2023 14:00:19</p>
 </footer>
 <script>
 "use strict";
@@ -205,10 +209,9 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
       if (!id) return;
       var anchor = document.createElement('a');
       anchor.setAttribute('href', "#".concat(id));
-      anchor.setAttribute('title', id);
-      anchor.setAttribute('aria-label', id);
-      item.parentNode.insertBefore(anchor, item);
-      anchor.appendChild(item);
+      anchor.innerText = id;
+      item.innerText = '';
+      item.appendChild(anchor);
     }
   } catch (err) {
     _iterator3.e(err);
