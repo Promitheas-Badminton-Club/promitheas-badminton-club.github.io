@@ -2,15 +2,21 @@
 // Make sure this script is run after all the html.
 (function () {
   for (const elem of document.querySelectorAll('[ps-route-selected]')) {
+    let matched = false
     for (const valueEl of elem.querySelectorAll('[ps-route-selected-value]')) {
       const value = valueEl
         .attributes
         .getNamedItem('ps-route-selected-value')
         .value
 
-      window.location.pathname.startsWith(value) &&
+      if (window.location.pathname.startsWith(value)) {
+        matched = true
         valueEl.classList.add('selected')
+      }
     }
+
+    // For when none match we have a fallback option.
+    elem.querySelector('[ps-route-selected-fallback]')?.classList.add('selected')
   }
 })();
 
