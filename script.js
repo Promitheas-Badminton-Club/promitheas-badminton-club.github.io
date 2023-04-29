@@ -20,6 +20,39 @@
   }
 })();
 
+// Anchors with full urls open a new window
+(function () {
+
+  for (const anchor of document.getElementsByTagName('a')) {
+    anchor.getAttribute('href')?.startsWith('http') &&
+      anchor.setAttribute('target', '_blank')
+  }
+
+})();
+
+// (function() {
+//   const sequence = 'edit'
+//   let current = ''
+//
+//   const cb = e => {
+//     current = current + e.key
+//
+//     if (!sequence.startsWith(current)) {
+//       current = ''
+//
+//       document.removeEventLister('keydown', e)
+//       return
+//     }
+//
+//     if (sequence === current) {
+//       console.log('yey we did it')
+//     }
+//
+//   }
+//
+//   document.addEventListener('keydown', e)
+// })()
+
 // Make certain headers also anchors to themselves.
 (function () {
   for (const item of document.getElementsByTagName('h2')) {
@@ -37,4 +70,4 @@
     item.innerText = ''
     item.appendChild(anchor)
   }
-})()
+})();

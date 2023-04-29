@@ -122,19 +122,19 @@ Bring your comfortable clothing and sports shoes. We'll take care of the rest.
 </tr>
 <tr class="odd">
 <td>WhatsApp</td>
-<td><a target="_blank" href="https://wa.me/35799320961">Open Chat</a></td>
+<td><a href="https://wa.me/35799320961">Open Chat</a></td>
 </tr>
 <tr class="even">
 <td>Telegram</td>
-<td><a target="_blank" href="https://t.me/bigfont">Open Chat</a></td>
+<td><a href="https://t.me/bigfont">Open Chat</a></td>
 </tr>
 <tr class="odd">
 <td>Viber</td>
-<td><a target="_blank" href="viber://pa?chatURI=<URI>.">Open Chat</a></td>
+<td><a href="viber://pa?chatURI=<URI>.">Open Chat</a></td>
 </tr>
 <tr class="even">
 <td>Address</td>
-<td><a target="_blank" href="https://www.google.com/maps/dir/?api=1&destination=Promitheas+Badminton+Club">QCH6+455, Paphos, Cyprus</a></td>
+<td><a href="https://www.google.com/maps/dir/?api=1&destination=Promitheas+Badminton+Club">QCH6+455, Paphos, Cyprus</a></td>
 </tr>
 </tbody>
 </table>
@@ -148,7 +148,7 @@ Bring your comfortable clothing and sports shoes. We'll take care of the rest.
 <footer>
 <ul class="languages" ps-route-selected>
 <li>
-<a ps-route-selected-value="/en" lang="en" href="/en">English</a>
+<a ps-route-selected-value="/en" lang="en" href="/en" ps-route-selected-fallback>English</a>
 </li>
 <li>
 <a ps-route-selected-value="/el" lang="el" href="/el">Ελληνικά</a>
@@ -160,8 +160,8 @@ Bring your comfortable clothing and sports shoes. We'll take care of the rest.
 <a ps-route-selected-value="/nl" lang="nl" href="/nl">Nederlands</a>
 </li>
 </ul>
-<p><a href="#Contact">Contact us</a> if you’re interested. <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScvI7oXn48nWsaYVnrHrSuTerLB_syHnN8hekXRkTmSbtbIAw/viewform">Register</a> when you want to become a member.</p>
-<p>Last modified: 24/04/2023 14:00:19</p>
+<p><a href="#Contact">Contact us</a> if you’re interested. <a href="https://docs.google.com/forms/d/e/1FAIpQLScvI7oXn48nWsaYVnrHrSuTerLB_syHnN8hekXRkTmSbtbIAw/viewform">Register</a> when you want to become a member.</p>
+<p><a href="https://docs.google.com/spreadsheets/d/1cqdZfqpBg20zd027ZhYXhNfVCKPRyB4t-4BWx6-gJyw">Last modified: 29/04/2023 13:49:22</a></p>
 </footer>
 <script>
 "use strict";
@@ -175,20 +175,28 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
     _step;
   try {
     for (_iterator.s(); !(_step = _iterator.n()).done;) {
+      var _elem$querySelector;
       var elem = _step.value;
+      var matched = false;
       var _iterator2 = _createForOfIteratorHelper(elem.querySelectorAll('[ps-route-selected-value]')),
         _step2;
       try {
         for (_iterator2.s(); !(_step2 = _iterator2.n()).done;) {
           var valueEl = _step2.value;
           var value = valueEl.attributes.getNamedItem('ps-route-selected-value').value;
-          window.location.pathname.startsWith(value) && valueEl.classList.add('selected');
+          if (window.location.pathname.startsWith(value)) {
+            matched = true;
+            valueEl.classList.add('selected');
+          }
         }
+
+        // For when none match we have a fallback option.
       } catch (err) {
         _iterator2.e(err);
       } finally {
         _iterator2.f();
       }
+      (_elem$querySelector = elem.querySelector('[ps-route-selected-fallback]')) === null || _elem$querySelector === void 0 ? void 0 : _elem$querySelector.classList.add('selected');
     }
   } catch (err) {
     _iterator.e(err);
@@ -197,13 +205,53 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
   }
 })();
 
-// Make certain headers also anchors to themselves.
+// Anchors with full urls open a new window
 (function () {
-  var _iterator3 = _createForOfIteratorHelper(document.getElementsByTagName('h2')),
+  var _iterator3 = _createForOfIteratorHelper(document.getElementsByTagName('a')),
     _step3;
   try {
     for (_iterator3.s(); !(_step3 = _iterator3.n()).done;) {
-      var item = _step3.value;
+      var _anchor$getAttribute;
+      var anchor = _step3.value;
+      ((_anchor$getAttribute = anchor.getAttribute('href')) === null || _anchor$getAttribute === void 0 ? void 0 : _anchor$getAttribute.startsWith('http')) && anchor.setAttribute('target', '_blank');
+    }
+  } catch (err) {
+    _iterator3.e(err);
+  } finally {
+    _iterator3.f();
+  }
+})();
+
+// (function() {
+//   const sequence = 'edit'
+//   let current = ''
+//
+//   const cb = e => {
+//     current = current + e.key
+//
+//     if (!sequence.startsWith(current)) {
+//       current = ''
+//
+//       document.removeEventLister('keydown', e)
+//       return
+//     }
+//
+//     if (sequence === current) {
+//       console.log('yey we did it')
+//     }
+//
+//   }
+//
+//   document.addEventListener('keydown', e)
+// })()
+
+// Make certain headers also anchors to themselves.
+(function () {
+  var _iterator4 = _createForOfIteratorHelper(document.getElementsByTagName('h2')),
+    _step4;
+  try {
+    for (_iterator4.s(); !(_step4 = _iterator4.n()).done;) {
+      var item = _step4.value;
       var id = item.innerText;
       item.setAttribute('id', id);
       if (!id) return;
@@ -214,9 +262,9 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
       item.appendChild(anchor);
     }
   } catch (err) {
-    _iterator3.e(err);
+    _iterator4.e(err);
   } finally {
-    _iterator3.f();
+    _iterator4.f();
   }
 })();
 
