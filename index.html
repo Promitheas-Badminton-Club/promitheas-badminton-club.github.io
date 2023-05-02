@@ -45,6 +45,7 @@ header > h1 {
   position: absolute;
   right: 0px;
   z-index: -1;
+  opacity: 0.5;
 }
 
 .sticky {
@@ -77,7 +78,7 @@ ul.languages .selected {
     font-weight: bold;
 }
 
-h2 a {
+h2 a, h1 a {
   text-decoration: none;
 }
 
@@ -93,9 +94,21 @@ header h1 {
 </head>
 <body>
 <header class="parallax">
-<h1 id="promitheas-badminton-club">Promitheas Badminton Club</h1>
+<h1 id="promitheas-badminton-club"><a href="/">Promitheas Badminton Club</a></h1>
 <nav class="sticky"> <a href="#Calendar">Calendar</a> <a href="#Pricing">Pricing</a> <a href="#Contact">Contact</a> </nav>
 </header>
+<style>
+.to-top {
+    background-color: var(--bg);
+    opacity: 0.8;
+    bottom: initial;
+    position: sticky;
+    display: block;
+    top: 0;
+    padding: 0.5rem;
+}
+</style>
+<a class="to-top" href="#top">Jump to top of page</a>
 <p>
 Bring your comfortable clothing and sports shoes. We'll take care of the rest.
 </p>
@@ -161,7 +174,7 @@ Bring your comfortable clothing and sports shoes. We'll take care of the rest.
 </li>
 </ul>
 <p><a href="#Contact">Contact us</a> if you’re interested. <a href="https://docs.google.com/forms/d/e/1FAIpQLScvI7oXn48nWsaYVnrHrSuTerLB_syHnN8hekXRkTmSbtbIAw/viewform">Register</a> when you want to become a member.</p>
-<p><a href="https://docs.google.com/spreadsheets/d/1cqdZfqpBg20zd027ZhYXhNfVCKPRyB4t-4BWx6-gJyw">Last modified: 29/04/2023 13:49:22</a></p>
+<p><a href="https://docs.google.com/spreadsheets/d/1cqdZfqpBg20zd027ZhYXhNfVCKPRyB4t-4BWx6-gJyw">Last modified: 02/05/2023 02:47:00</a></p>
 </footer>
 <script>
 "use strict";

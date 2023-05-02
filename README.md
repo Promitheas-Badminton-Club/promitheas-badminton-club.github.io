@@ -1,7 +1,6 @@
-# Promitheas
+# Promitheas Badminton Club Website
 
 Website for the Promitheas badminton club in Paphos.
-
 
 ## Features
 
