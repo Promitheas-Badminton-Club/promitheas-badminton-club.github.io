@@ -12,7 +12,6 @@ el
 ' | while read -r code; do
   mkdir -p "$code"
 
-
   {
     echo '<!DOCTYPE html>'
     mache 'cmsheet -u "%s" -o "value.%s" "value"' "$sheet" "$code" |
