@@ -109,6 +109,23 @@ header img {
     max-height: 128px;
     border: 1px solid var(--text-light);
 }
+    ::backdrop, :root {
+  --accent: #a91a17;
+}
+
+iframe {
+  filter: grayscale(1) contrast(1.1);
+}
+
+@media (prefers-color-scheme: dark) {
+  ::backdrop, :root {
+    --accent: orangered;
+  }
+
+  iframe {
+    filter: grayscale(1) contrast(1.1) invert(1);
+  }
+}
   </style>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-25JSPCJ2C8"></script>
@@ -239,7 +256,7 @@ header img {
 </li>
 </ul>
 <p>[Επικοινωνήστε μαζί μας] (#) εάν ενδιαφέρεστε. } Όταν θέλετε να γίνετε μέλος.</p>
-<p><a href="https://docs.google.com/spreadsheets/d/1cqdZfqpBg20zd027ZhYXhNfVCKPRyB4t-4BWx6-gJyw">Τελευταία τροποποίηση: 20/05/2023 12:43:18</a></p>
+<p><a href="https://docs.google.com/spreadsheets/d/1cqdZfqpBg20zd027ZhYXhNfVCKPRyB4t-4BWx6-gJyw">Τελευταία τροποποίηση: 21/05/2023 13:46:26</a></p>
 </footer>
 <script>
 "use strict";
