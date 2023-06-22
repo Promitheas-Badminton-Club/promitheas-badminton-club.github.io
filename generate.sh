@@ -18,8 +18,8 @@ el
       jq -r .page |
       pandoc -
 
-    echo '<script>'
-    npx babel ./script.js --presets=@babel/preset-env
+    echo '<script defer>'
+    npx babel ./script.js --presets=@babel/preset-env | npx terser
     echo '</script>'
 
   } > "./$code/index.html"
