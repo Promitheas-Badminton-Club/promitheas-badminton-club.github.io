@@ -14,7 +14,7 @@ el
 
   {
     echo '<!DOCTYPE html>'
-    mache 'cmsheet -u "%s" -o "value.%s" "value"' "$sheet" "$code" |
+    mache 'cmsheet "%s" -o "value.%s" "value"' "$sheet" "$code" |
       jq -r .page |
       pandoc -
 
