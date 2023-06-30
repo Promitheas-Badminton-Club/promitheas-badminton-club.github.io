@@ -5,7 +5,7 @@ set -euo pipefail
 sheet="https://docs.google.com/spreadsheets/d/1cqdZfqpBg20zd027ZhYXhNfVCKPRyB4t-4BWx6-gJyw/edit#gid=0"
 
 # Dev mode
-printf 'en
+printf '
 nl
 ru
 el
@@ -29,4 +29,5 @@ nl
 ru
 el'
 
-cp en/index.html index.html
+mv en/index.html index.html
+rm -r ./en
