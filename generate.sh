@@ -29,5 +29,5 @@ nl
 ru
 el'
 
-mv en/index.html index.html
-rm -r ./en
+cp ./en/index.html index.html
+git restore ./en
