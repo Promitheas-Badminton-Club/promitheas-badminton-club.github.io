@@ -5,7 +5,14 @@ set -euo pipefail
 sheet="https://docs.google.com/spreadsheets/d/1cqdZfqpBg20zd027ZhYXhNfVCKPRyB4t-4BWx6-gJyw/edit#gid=0"
 
 minify() {
-  npx html-minifier --collapse-whitespace --remove-comments --remove-optional-tags --remove-redundant-attributes --remove-script-type-attributes --remove-tag-whitespace --use-short-doctype --minify-css true
+  npx html-minifier \
+    --collapse-whitespace \
+    --remove-comments \
+    --remove-optional-tags \
+    --remove-redundant-attributes \
+    --remove-script-type-attributes \
+    --use-short-doctype \
+    --minify-css true
 }
 
 # Dev mode
