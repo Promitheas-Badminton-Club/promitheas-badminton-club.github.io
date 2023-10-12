@@ -8,11 +8,12 @@ minify() {
   npx html-minifier \
     --collapse-whitespace \
     --remove-comments \
-    --remove-optional-tags \
     --remove-redundant-attributes \
     --remove-script-type-attributes \
     --use-short-doctype \
     --minify-css true
+    #--remove-optional-tags \
+    #--remove-tag-whitespace
 }
 
 # Dev mode
