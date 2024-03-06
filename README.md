@@ -13,7 +13,7 @@ Website for the Promitheas badminton club in Paphos.
 - [x] Register to become a member.
 - [ ] Add a FAQ section at the bottom.
   - [ ] Convert learn to a FAQ item.
-- [ ] Clear call to action that is always visible.
+- [x] Clear call to action that is always visible.
 - [ ] Share information about badminton in Paphos.
 
 ## Edit Content
