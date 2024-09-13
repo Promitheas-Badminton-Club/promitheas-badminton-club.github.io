@@ -21,10 +21,16 @@
 })();
 
 // Anchors with full urls open a new window
+// Change hash urls to lowercase
 (function () {
 
   for (const anchor of document.getElementsByTagName('a')) {
-    anchor.getAttribute('href')?.startsWith('http') &&
+    const href = anchor.getAttribute('href').trim()
+
+    href?.startsWith('#') &&
+      anchor.setAttribute('href', href.toLowerCase())
+
+    href?.startsWith('http') &&
       anchor.setAttribute('target', '_blank')
   }
 
@@ -56,7 +62,7 @@
 // Make certain headers also anchors to themselves.
 (function () {
   for (const item of document.getElementsByTagName('h2')) {
-    const id = item.innerText
+    const id = item.innerText.toLowerCase()
 
     item.setAttribute('id', id)
 
