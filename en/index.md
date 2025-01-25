@@ -30,8 +30,8 @@ We welcome beginners and experienced players. Interested?
 
 Want to try badminton? Call or send us a message.
 
-- **Email:** promitheasb@gmail.com
-- **Phone:** +357 96 401 987
-- **WhatsApp:** [Open Chat](https://wa.me)
-- **Telegram:** [Open Chat](https://t.me)
-- **Address:** [QCH6+455, Paphos, Cyprus](https://www.google.com)
+- **Email**: [promitheasb@gmail.com](mailto:promitheasb@gmail.com)
+- **Phone**: [+357 96 401 987](tel:+35796401987)
+- **WhatsApp**: [Open Chat](https://wa.me/35796401987)
+- **Telegram**: [Open Chat](https://t.me/bigfont)
+- **Address**: [QCH6+455, Paphos, Cyprus](https://www.google.com/maps/dir/?api=1&destination=Promitheas+Badminton+Club)

@@ -1,5 +1,5 @@
 ---
-title: Russian
+title: Русский
 description: Who we are in russian
 tags: [published, spotlight]
 ---
