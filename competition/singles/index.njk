@@ -1,0 +1,69 @@
+---
+title: Singles Competition
+description: Join our singles ladder.
+tags: published
+---
+
+{% markdown %}
+- Submit a match result using [the results form](https://forms.gle/6x2Eygpfm2owNoZf6).
+- Join the Singles Ladder Tournement chat on [WhatsApp](https://chat.whatsapp.com/CIl4T9qvd4Q1BiYNMVQXp8) to challenge others.
+
+## Ranking
+{% endmarkdown %}
+
+<ol>
+  {% if ladder and ladder.length > 0 %}
+    {% for entry in ladder %}
+      {% if entry.addHr %}
+        <h3>Level {{ entry.level }}</h3>
+      {% endif %}
+      <li>
+        {{ entry.name }}
+        {% if entry.isFirst %}<span class="medal">🥇</span>{% endif %}
+        {% if entry.isSecond %}<span class="medal">🥈</span>{% endif %}
+        {% if entry.isThird %}<span class="medal">🥉</span>{% endif %}
+      </li>
+    {% endfor %}
+  {% else %}
+    <p>No ladder entries available.</p>
+  {% endif %}
+</ol>
+
+{% markdown %}
+## Games
+{% endmarkdown %}
+
+<figure>
+  <table tabindex="0">
+    <thead>
+      <th>Challenger</th>
+      <th>Challenged</th>
+      <th>Results</th>
+      <th>Date</th>
+    </thead>
+    <tbody>
+    {% for game in games | reverse %}
+      <tr>
+        <td>
+        {{game.Challenger}} 
+        </td>
+
+        <td>
+        {{game.Challenged}}
+        </td>
+
+        <td>
+        {% for result in game.Results %}
+          <span>{{result[0]}}-{{result[1]}}</span>
+        {% endfor %}
+        </td>
+
+        <td>
+        {{game.Timestamp | datetime}}
+        </td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</figure>
+

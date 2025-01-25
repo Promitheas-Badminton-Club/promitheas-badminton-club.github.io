@@ -1,0 +1,21 @@
+---
+title: Unpublished
+noindex: true
+---
+
+{% from 'card.njk' import card %}
+
+{% for item in collections.all | unpublished %}
+  {{card(
+    item.data.title,
+    podcast=item.data.podcast,
+    content=item.data.description,
+    href=item.url,
+    lang=item.data.lang,
+    lang_dir=item.data.lang_dir,
+    location=item.data.location,
+    date=item.date,
+    image=item.data.image
+  )}}
+
+{% endfor %}

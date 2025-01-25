@@ -1,0 +1,22 @@
+{
+  "name": "next",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-img": "^6.0.1",
+    "@11ty/eleventy-plugin-rss": "^2.0.3",
+    "feed2json": "^0.6.0",
+    "markdown-it-anchor": "^9.2.0",
+    "markdown-it-toc-done-right": "^4.2.0",
+    "music-metadata": "^10.7.0"
+  }
+}

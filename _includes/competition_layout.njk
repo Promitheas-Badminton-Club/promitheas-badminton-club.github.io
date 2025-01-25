@@ -1,0 +1,10 @@
+{% extends 'layout.njk' %}
+
+{% block menu %}
+<ul>
+  <li><a {{currentPageExact("/competition/")}}>Competition</a></li>
+  <li><a {{currentPage("/competition/singles")}}>Singles</a></li>
+  <li><a {{currentPage("/competition/doubles")}}>Doubles</a></li>
+</ul>
+{% endblock %}
+

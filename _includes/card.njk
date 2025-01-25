@@ -1,0 +1,89 @@
+{% macro card(title, lang="", podcast="", lang_dir="ltr", location="", image="", href="", image_alt="", level='h2', image='', content='', date='') %}
+<article dir="{{lang_dir}}" lang="{{lang}}">
+
+  {%- if image -%}
+    <img alt="{{image_alt}}" src="{{image}}"/>
+  {%- endif -%}
+
+  <header>
+    <{{level}}>
+      {%- if href -%}
+        <a href="{{href}}">
+          {{title}}
+        </a>
+      {%- else -%}
+        {{title}}
+      {%- endif -%}
+    </{{level}}>
+  </header>
+
+  <p class="meta">
+    {%- if date -%}
+      <time datetime="{{ date }}">
+        {{ date | date(lang)  }}
+      </time>
+      <br/>
+    {%- endif -%}
+    {%- if location -%}
+      <span class="location">{{location}}</span>
+      <br/>
+    {%- endif -%}
+    {% if false %}
+    <audio style="z-index: 10000; position: relative; display: block; width: 100%; margin-top: 1rem;" src="{{podcast.file}}" controls>
+      🔈
+    </audio>
+    {% endif %}
+  </p>
+  {%- if content -%}
+    {{content | truncate | markdown | safe }}
+  {%- endif -%}
+</article>
+
+{% endmacro %}
+
+{% once %}
+<style>
+    article a {
+      outline: none !important;
+      z-index: 1;
+    }
+
+    article a::after {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      content: ' ';
+      z-index: 1;
+    }
+
+    article {
+      position: relative;
+      background-color: var(--bg-transparent);
+    }
+
+    article:has(a:hover) {
+      background-color: var(--accent-bg);
+    }
+
+    article:has(a:focus-within),
+    article:has(a:focus) {
+      outline: 2px solid;
+    }
+
+    article footer {
+      font-size: 90%;
+      opacity: 0.8;
+    }
+
+    article > :last-child {
+      margin-bottom: 0;
+    }
+
+    article .meta {
+    	color: var(--text-light);
+    }
+</style>
+
+{% endonce %}

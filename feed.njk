@@ -1,0 +1,83 @@
+---
+layout: false
+permalink: feed.xml
+eleventyExcludeFromCollections: true
+metadata:
+  logo: /asset/promitheas_logo.png
+  language: en
+  title: Promitheas BC
+  description: |
+    Experience inclusive badminton at Promitheas Badminton Club in Paphos, Cyprus. Enjoy recreational play and junior training. Whether you're a beginner or a seasoned player, find your place in our welcoming community. Contact us for a trial session or more information!
+  base: https://badmintonpaphos.com
+  author:
+    name: Promitheas BC
+    email: PromitheasB@gmail.com
+  itunes:
+    category: Sports
+    explicit: no
+    subtitle: |
+      Promitheas Badminton Club news feed
+    summary: |
+      TBD
+    keywords: "Badminton, Paphos, Cyprus, Sports"
+eleventyImport:
+    collections: ["feed_item"]
+---
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>{{ metadata.title }}</title>
+  <link>{{ metadata.base | addPathPrefixToFullUrl }}</link>
+  <atom:link href="{{ permalink | htmlBaseUrl(metadata.base) }}" rel="self" type="application/rss+xml" />
+  <description>{{ metadata.description }}</description>
+  <language>{{ metadata.language }}</language>
+  <itunes:summary>{{ metadata.itunes.summary }}</itunes:summary>
+  <itunes:subtitle>{{ metadata.itunes.subtitle | truncate(255) }}</itunes:subtitle>
+  <itunes:author>{{ metadata.author.name }}</itunes:author>
+  <itunes:explicit>{{ metadata.itunes.explicit }}</itunes:explicit>
+  <itunes:category text="{{ metadata.itunes.category }}" />
+  <itunes:keywords>{{ metadata.itunes.keywords }}</itunes:keywords>
+  <itunes:image href="{{ metadata.logo | htmlBaseUrl(metadata.base) }}" />
+
+  <itunes:owner>
+    <itunes:name>{{ metadata.author.name }}</itunes:name>
+    <itunes:email>{{ metadata.author.email }}</itunes:email>
+  </itunes:owner>
+
+  {% for post in collections.feed_item | published | reverse %}
+  {% set absolutePostUrl %}{{ post.url | htmlBaseUrl(metadata.base) }}{% endset %}
+  <item>
+    <title>{{ post.data.title }}</title>
+    <link>{{ absolutePostUrl }}</link>
+    <guid>{{ absolutePostUrl }}</guid>
+    <pubDate>{{ post.date | dateToRfc822 }}</pubDate>
+
+    <itunes:summary>{{ post.data.description }}</itunes:summary>
+    <itunes:subtitle>{{ post.data.description | truncate(255)}}</itunes:subtitle>
+    <itunes:author>{{ metadata.author.name }}</itunes:author>
+
+    <description>
+      {{ post.data.description }}
+    </description>
+
+    <content:encoded>{{ post.content | renderTransforms(post.data.page, metadata.base) }}</content:encoded>
+
+    {% if post.data.image %}
+    <media:content url="{{ post.data.image | htmlBaseUrl(metadata.base) }}" medium="image" />
+    <itunes:image href="{{ post.data.image | htmlBaseUrl(metadata.base) }}" />
+    {% endif %}
+
+    {% if post.data.podcast %}
+    {% set podcast = post.data.podcast.file | getAudioMetadata %}
+    <enclosure url="{{ podcast.file | htmlBaseUrl(metadata.base) }}" type="{{ podcast.type }}" length="{{ podcast.length }}" />
+    <itunes:duration>{{ podcast.duration }}</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    {% endif %}
+  </item>
+  {% endfor %}
+</channel>
+</rss>

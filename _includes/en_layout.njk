@@ -1,0 +1,12 @@
+{% extends 'layout.njk' %}
+
+{% block menu %}
+<ul>
+  <li><a {{currentPage("/en/kids")}}>Kids 🏸</a></li>
+  <li><a {{currentPageExact("/en/")}}>About</a></li>
+  <li><a {{currentPage("/competition")}}>Competition</a></li>
+  <li><a {{currentPage("/en/calendar")}}>Calendar</a></li>
+  <li><a {{currentPage("/en/faq")}}>FAQ</a></li>
+</ul>
+{% endblock %}
+

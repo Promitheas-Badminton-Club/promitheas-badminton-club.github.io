@@ -1,0 +1,61 @@
+---
+title: Search
+tags: published
+noindex: true
+---
+
+{% from 'card.njk' import card %}
+
+<h1>Search</h1>
+<form action="/search" method="GET">
+  <label class="sr-only" for="query">Query</label>
+  <input type="text" placeholder="Query..." id="query" name="q"/>
+  <button type="submit">Search</button>
+</form>
+
+<h2>Results</h2>
+<div id="results" aria-live="polite">
+  {% for item in collections.feed_item | published %}
+
+
+  {{card(
+    item.data.title,
+    podcast=item.data.podcast,
+    content=item.data.description,
+    href=item.url,
+    lang=item.data.lang,
+    lang_dir=item.data.lang_dir,
+    location=item.data.location,
+    date=item.date,
+    image=item.data.image,
+    level="h3"
+  )}}
+
+  {% endfor %}
+</div>
+
+<script>
+
+  (function() {
+    const query = document.getElementById('query');
+    const params = new URLSearchParams(window.location.search);
+    const items = document.querySelectorAll('#results > article'); // Corrected method
+
+    query.value = params.get('q') ?? ''
+
+    function containsAllQueryTermsCaseInsensitive(item) {
+      const queryTerms = query.value.toLowerCase().split(' ').filter(Boolean); // Split and filter out empty terms
+      const itemText = item.textContent.toLowerCase(); // Get item text in lower case
+
+      return queryTerms.every(term => itemText.includes(term)); // Check if all terms are included
+    }
+
+    Array.from(items).forEach(item => { // Convert HTMLCollection to array for forEach
+      if (containsAllQueryTermsCaseInsensitive(item))
+        item.style.display = 'block'; // Show item
+      else
+        item.style.display = 'none'; // Hide item
+    });
+  })();
+
+</script>

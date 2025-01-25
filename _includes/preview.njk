@@ -1,0 +1,67 @@
+{% from "socials.njk" import socials %} {% macro preview(file, type) %}
+<details data-ref="preview">
+  <summary>
+    <span>{{file}}</span>
+  </summary>
+
+  {{ socials(file, subject="UFP / Asset {{file}}", body="Link: {{file}}") }}
+
+  <object type="{{type or file | mimeType}}" data-data="{{file}}">
+    <p>
+      <!-- DUPLICATION -->
+      Unable to show preview. Download or visit the link instead.
+    </p>
+  </object>
+  <noscript>
+    <object type="{{type or file | mimeType}}" data="{{file}}">
+      <p>
+        <!-- DUPLICATION -->
+        Unable to show preview. Download or visit the link instead.
+      </p>
+    </object>
+  </noscript>
+</details>
+{% endmacro %} {% once %}
+<style>
+  details object {
+    width: 100%;
+  }
+
+  details {
+    background-color: var(--bg-transparent);
+  }
+
+  details:hover {
+    background-color: var(--bg);
+  }
+
+  summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  summary .actions {
+    display: flex;
+    gap: 10px;
+  }
+
+  object[type="application/pdf"] {
+    height: 90vh;
+  }
+</style>
+
+<script>
+  onRef("preview", (details) => {
+    details.addEventListener(
+      "click",
+      () => {
+        const object = details.querySelector("object[data-data]");
+
+        object.setAttribute("data", object.getAttribute("data-data"));
+      },
+      { once: true },
+    );
+  });
+</script>
+{% endonce %}
