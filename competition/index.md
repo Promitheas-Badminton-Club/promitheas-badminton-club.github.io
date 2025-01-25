@@ -1,8 +1,8 @@
 ---
 title: Competition
 description: |
-  Challange yourself with some friendly competition.
-tags: published
+  Challenge yourself with some friendly competition.
+tags: [published, spotlight]
 ---
 
 Promitheas BC manages a few ladder tournements.
