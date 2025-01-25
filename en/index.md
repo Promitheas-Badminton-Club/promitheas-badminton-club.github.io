@@ -1,5 +1,5 @@
 ---
-title: English
+title: Adults
 description: About
 tags: [published, spotlight]
 ---
@@ -12,6 +12,8 @@ Experience inclusive badminton at Promitheas Badminton Club in Paphos, Cyprus. E
 
 - **Monday:** 19:30 – 21:30
 - **Wednesday:** 20:30 – 22:30
+
+<iframe loading="lazy" title="Adults Calendar" src="https://calendar.google.com/calendar/embed?src=d0dc61182ea51b9e4df978b26caac2ee050a96c42c3c0ecb854765cac72db29e%40group.calendar.google.com&amp;ctz=Asia%2FNicosia&amp;hl={{lang}}&mode=AGENDA" style="border:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
 
 ## Fees
 
