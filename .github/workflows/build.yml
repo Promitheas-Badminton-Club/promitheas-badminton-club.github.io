@@ -5,6 +5,8 @@ on:
     branches:
       - "main"
       - "next"
+  schedule:
+    - cron: "0 0 * * *"
 
 jobs:
   build:
