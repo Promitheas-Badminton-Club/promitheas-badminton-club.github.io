@@ -1,7 +1,7 @@
 ---
 title: Kids
 description: TODO
-tags: published
+tags: [published, spotlight]
 ---
 
 - [Calendar](#calendar)

@@ -1,5 +1,6 @@
 ---
 title: Frequently Asked Questions
+tags: published
 ---
 
 **How much does it cost?**

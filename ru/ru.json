@@ -1,5 +1,4 @@
 {
   "lang": "ru",
-  "layout": "ru_layout.njk",
-  "tags": ["published"]
+  "layout": "ru_layout.njk"
 }

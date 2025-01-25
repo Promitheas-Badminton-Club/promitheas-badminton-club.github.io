@@ -1,6 +1,7 @@
 ---
 title: Kids
 description: We offer a complete training for kids.
+tags: [spotlight, published]
 ---
 
 - [Calendar](#calendar)
