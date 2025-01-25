@@ -2,6 +2,7 @@
 title: Kids
 description: TODO
 tags: [published, spotlight]
+date: 2025-01-26
 ---
 
 - [Calendar](#calendar)

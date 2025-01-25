@@ -2,6 +2,7 @@
 title: Kids
 description: We offer a complete training for kids.
 tags: [spotlight, published]
+date: 2025-01-26
 ---
 
 - [Calendar](#calendar)
