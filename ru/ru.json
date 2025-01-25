@@ -1,5 +1,5 @@
 {
   "lang": "ru",
   "layout": "ru_layout.njk",
-  "tags": ["feed_item", "published"]
+  "tags": ["published"]
 }
