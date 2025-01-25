@@ -1,0 +1,648 @@
+<html>
+<!doctype html>
+<html dir="" lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  
+
+
+  <!-- Expereriment: theme-color -->
+  <meta name="theme-color" content="#FFFFFF" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Promitheas BC | Competition</title>
+  <meta name="description" content="Challange yourself with some friendly competition.
+">
+
+
+  <link rel="icon" href="/asset/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/asset/favicon-16x16.png" sizes="16x16" type="image/png">
+  <link rel="icon" href="/asset/favicon-32x32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="/asset/apple-touch-icon.png">
+  <link rel="icon" href="/asset/android-chrome-192x192.png" sizes="192x192" type="image/png">
+  <link rel="icon" href="/asset/android-chrome-512x512.png" sizes="512x512" type="image/png">
+  <meta name="theme-color" content="#ffffff">  
+
+  <meta property="og:title" content="Competition">
+  <meta property="og:type" content="article">
+  
+  <meta property="og:url" content="https://badmintonpaphos.com/undefined">
+  <meta property="og:description" content="Challange yourself with some friendly competition.
+">
+
+  <style>
+
+    /* External CSS */
+    @import url('https://unpkg.com/simpledotcss/simple.min.css');
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    iframe {
+      width: 100%;
+    }
+
+    td, th {
+      max-width: 90vw;
+    }
+
+    .display-none {
+      display: none !important;
+    }
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+      box-sizing: border-box;
+    }
+
+    .card-grid > article {
+      box-sizing: border-box;
+    }
+
+    .card-grid > article img {
+      width: 100%;
+      max-height: 256px;
+      object-fit: cover;
+      object-position: 50% top;
+    }
+
+
+    :root, ::backdrop {
+      --bg-transparent: #FFFFFF44; /* Assuming a semi-transparent white background */
+      --accent: #048841; /* Primary green color */
+      --accent-hover: #333333; /* Dark gray for hover state */
+      --accent-bg: cornsilk;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root,
+      ::backdrop {
+        --bg: #000000AA; /* Semi-transparent black background */
+        --bg-transparent: #00000044; /* More transparent black background */
+        --accent: #048841; /* Primary green color */
+        --accent-hover: #555555; /* Medium gray for hover state */
+      }
+    }
+
+    :root, ::backdrop {
+      --bg-transparent: #FFFFFF44; /* Semi-transparent white background */
+      --accent: #BB1D2C; /* Dark reddish primary color */
+      --accent-hover: #A11A27; /* Slightly darker shade for hover state */
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root,
+      ::backdrop {
+        --bg: #000000AA; /* Semi-transparent black background */
+        --bg-transparent: #00000044; /* More transparent black background */
+        --accent: #BB1D2C; /* Dark reddish primary color */
+        --accent-hover: #A11A27; /* Slightly darker shade for hover state */
+      }
+    }
+
+    * {
+      outline-offset: 0.1rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    a:focus {
+      outline: 2px solid;
+    }
+
+    h2 {
+      font-size: 1.4rem;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+    }
+
+    .breadcrumbs ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .breadcrumbs li {
+      display: inline-block;
+
+    }
+
+    .breadcrumbs li::after {
+      color: var(--border);
+      content: " / ";
+      margin: 0 5px; /* adjust spacing as needed */
+    }
+
+    @view-transition {
+      navigation: auto;
+    }
+
+    .spotlight ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    body {
+      word-wrap: break-word;
+    }
+
+    figure embed {
+      width: 100%;
+    }
+
+    /* Unvisited links */
+    a {
+      color: var(--accent-hover) !important; /* Set unvisited links to red */
+      text-underline-offset: 0.4rem;
+    }
+
+    blockquote {
+      margin-inline: 0;
+      border-color: var(--disabled);
+    }
+
+    /* Visited links */
+    a:visited {
+      color: var(--accent) !important; /* Green for visited links */
+    }
+
+    .menu--main {
+      font-size: 110%;
+    }
+
+    .menu ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .menu li {
+      display: inline-block;
+      margin: 1ch 1ch 1ch 0;
+    }
+
+    a[aria-current] {
+      color: var(--text) !important;
+    }
+
+    main {
+      padding-top: 0;
+    }
+
+
+    main h1 {
+      margin-top: 3rem;
+    }
+
+    .no-margin {
+      margin: 0;
+    }
+
+  </style>
+
+  <script>
+    function onRef(name, cb) {
+      onRef.state.push([name, cb])
+    }
+
+    onRef.state = []
+
+    window.addEventListener('load', () => {
+      onRef.state.forEach(([name, cb]) => {
+        document
+          .querySelectorAll(`[data-ref="${name}"]`)
+          .forEach(elem => cb(elem))
+      })
+    }, 1000)
+  </script>
+</head>
+
+
+<body>
+
+
+
+<style>
+  body:before {
+    z-index: -1;
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('') center/cover no-repeat;
+    opacity: 0.04;
+    filter: blur(30px);
+  }
+
+    main {
+      position: relative;
+    }
+
+    .subtle {
+      opacity: 0.8;
+      font-style: italic;
+    }
+
+    .header-anchor {
+      text-decoration: none;
+      opacity: 0.5;
+    }
+
+    .header-anchor:hover {
+      opacity: 1;
+    }
+</style>
+
+  <main id="main">
+
+    <!-- TODO: Consider moving to a separate file -->
+    
+    
+
+
+  <nav class="menu menu--main no-print">
+
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a lang="en" href="/en/">English</a></li>
+      <li><a lang="ru" href="/ru/">Russian</a></li>
+      <style>
+        .search svg {
+          height: 0.7em;
+          fill: var(--accent);
+        }
+      </style>
+      <li class="search"><a title="Search" href="/search">
+          <span class="sr-only">Search</span>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"></path></svg>
+      </a></li>
+    </ul>
+  </nav>
+
+
+  <hr class="no-margin">
+
+  <nav class="menu no-print">
+    
+<ul>
+  <li><a aria-current="page" href="/competition/">Competition</a></li>
+  <li><a href="/competition/singles">Singles</a></li>
+  <li><a href="/competition/doubles">Doubles</a></li>
+</ul>
+
+  </nav>
+
+  <!--
+  <nav class="breadcrumbs">
+    <ul>
+    
+      <li>
+        <a href="/">Home</a>
+      </li>
+    
+
+    </ul>
+  </nav>
+  -->
+    <h1>
+      Competition
+    </h1>
+
+    <p class="subtle">
+      
+      
+    </p>
+
+    
+
+    <p>Promitheas BC manages a few ladder tournements.</p>
+<ul>
+<li><a href="./singles">Singles</a></li>
+<li><a href="./doubles">Doubles</a></li>
+</ul>
+<blockquote>
+<p>For now the ladder is not split into age or gender. This is mainly because we don't have enough members enrolled.</p>
+</blockquote>
+<h2 id="rules" tabindex="-1"><a class="header-anchor" href="#rules" aria-label="Section titled &quot;rules&quot;" title="Link to this section">#</a> Rules</h2>
+<ol>
+<li>
+<p><strong>Player Entry</strong></p>
+<ul>
+<li>Players are <strong>automatically added</strong> to the ladder when they play their first game.</li>
+<li>New players enter the ladder at the position of the <strong>player they defeated</strong> in their first match. If the challenger wins, they take the defeated player's rank, and the defeated player moves down one rank.</li>
+<li>If the challenger loses, the ladder remains unchanged, and they enter the bottom of the ladder.</li>
+</ul>
+</li>
+<li>
+<p><strong>Challenges</strong></p>
+<ul>
+<li>Players can challenge any other player on the ladder.</li>
+<li>If the challenger wins, they move up to the position of the challenged player, and the challenged player moves down one rank.</li>
+<li>If the challenger loses, the ladder remains unchanged.</li>
+</ul>
+</li>
+<li>
+<p><strong>Match Format</strong></p>
+<ul>
+<li>Matches are played in a <strong>best-of-three</strong> format (first to 2 game wins).</li>
+<li>The score is tracked in a <code>x-y</code> format (e.g., &quot;21-19 19-21 21-18&quot;).</li>
+</ul>
+</li>
+<li>
+<p><strong>Ladder Reset</strong></p>
+<ul>
+<li>The ladder is <strong>reset every year</strong>.</li>
+</ul>
+</li>
+</ol>
+
+
+    
+
+    
+
+
+  <hgroup class="spotlight no-print">
+    
+  </hgroup>
+
+  </main>
+
+    <a class="no-print" href="#" id="scrollTopBtn">🔻</a>
+
+    <script>
+      const scrollBtn = document.getElementById("scrollTopBtn");
+      window.onscroll = function () {
+        if (window.scrollY > window.innerHeight / 2) {
+          scrollBtn.classList.add("show");
+        } else {
+          scrollBtn.classList.remove("show");
+        }
+      };
+    </script>
+    <style>
+
+      #scrollTopBtn {
+        outline: none;
+        font-size: 2rem;
+        transition: opacity 0.5s ease, transform 0.5s ease;
+        text-decoration: none;
+        opacity: 0;
+        transform: rotate(0deg);
+        position: fixed;
+        bottom: 8rem;
+        right: 0;
+        padding: 1ch;
+        cursor: pointer;
+        z-index: 2;
+        pointer-events: none;
+      }
+
+      #scrollTopBtn.show {
+        opacity: 1;
+        transform: rotate(180deg);
+        pointer-events: auto;
+      }
+    </style>
+
+  <footer class="no-print">
+
+    <p>
+      <a href="mailto:badmintonpromitheas@gmail.com">badmintonpaphos@gmail.com</a> |
+      <a href="/feed.xml">RSS</a>
+    </p><p>
+  </p></footer>
+
+  <script id="quicklink_js" async="" src="https://cdnjs.cloudflare.com/ajax/libs/quicklink/2.3.0/quicklink.umd.js"></script>
+
+  <script>
+
+    document.getElementById("quicklink_js")
+      .addEventListener("load", () => {
+        quicklink.listen();
+      });
+
+    window.addEventListener("popstate", function () {
+      window.document.getElementById("menu").removeAttribute("open")
+    });
+
+  </script>
+
+  
+<style>
+    article a {
+      outline: none !important;
+      z-index: 1;
+    }
+
+    article a::after {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      content: ' ';
+      z-index: 1;
+    }
+
+    article {
+      position: relative;
+      background-color: var(--bg-transparent);
+    }
+
+    article:has(a:hover) {
+      background-color: var(--accent-bg);
+    }
+
+    article:has(a:focus-within),
+    article:has(a:focus) {
+      outline: 2px solid;
+    }
+
+    article footer {
+      font-size: 90%;
+      opacity: 0.8;
+    }
+
+    article > :last-child {
+      margin-bottom: 0;
+    }
+
+    article .meta {
+    	color: var(--text-light);
+    }
+</style>
+
+
+<script>
+  onRef("clipboard", (copyLinkButton) => {
+    copyLinkButton.addEventListener("click", (event) => {
+      event.preventDefault();
+      event.stopPropagation();
+      const link = copyLinkButton.getAttribute("href");
+
+      navigator.clipboard
+        .writeText(link)
+        .then(() => {
+          alert("Link copied to clipboard!");
+        })
+        .catch((err) => {
+          console.error("Failed to copy link: ", err);
+        });
+    });
+  });
+
+  onRef("nativeShare", (button) => {
+    const href = button.getAttribute("data-href");
+    const subject = button.getAttribute("data-subject");
+    const body = button.getAttribute("data-body");
+
+    if (!navigator.share || !navigator.canShare({ url: href })) return;
+
+    const parentSocials = element.closest(".socials");
+
+    if (parentSocials) parentSocials.classList.add("socials--canShare");
+
+    // Show the native share button and hide the socials list
+
+    button.addEventListener("click", async (e) => {
+      e.preventDefault();
+      try {
+        await navigator.share({
+          title: subject,
+          text: body,
+          url: href,
+        });
+      } catch (err) {
+        console.error("Error sharing:", err);
+      }
+    });
+  });
+</script>
+
+<style>
+  .socials {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex; /* Use flexbox for horizontal alignment */
+      --accent-hover: var(--text);
+  }
+
+  .socials.socials--canShare li {
+    display: none;
+  }
+
+  .socials li.socials__item--canShare {
+    display: none;
+  }
+
+  .socials.socials--canShare li.socials__item--canShare {
+    display: inline-block;
+  }
+
+  .socials li {
+      margin: 0 1rem 0 0; /* Add horizontal margin to list items */
+  }
+
+  .socials a, .socials button {
+      background: none;
+      border: none;
+      border-radius: var(--standard-border-radius);
+      outline-color: var(--accent-hover);
+      margin-bottom: 0.4rem;
+      padding: 0.4rem; /* Add padding inside links */
+      width: 2rem; /* Set width to allow for icon size */
+      display: flex; /* Use flexbox for centering content */
+      justify-content: center; /* Center content horizontally */
+      align-items: center; /* Center content vertically */
+      transition: background-color 0.3s ease; /* Smooth transition for hover */
+  }
+
+  .socials a:hover, .socials button:hover {
+      background-color: var(--accent-hover); /* Change background on hover */
+  }
+
+  .socials a:hover svg, .socials button:hover svg {
+      fill: var(--bg); /* Change SVG color on hover */
+  }
+
+  .socials svg {
+      display: block:
+      width: auto; /* Set a fixed width for SVGs */
+      height: 1.5rem; /* Maintain aspect ratio */
+      fill: var(--accent-hover); /* Set fill color */
+  }
+</style>
+
+<style>
+  details object {
+    width: 100%;
+  }
+
+  details {
+    background-color: var(--bg-transparent);
+  }
+
+  details:hover {
+    background-color: var(--bg);
+  }
+
+  summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  summary .actions {
+    display: flex;
+    gap: 10px;
+  }
+
+  object[type="application/pdf"] {
+    height: 90vh;
+  }
+</style>
+
+<script>
+  onRef("preview", (details) => {
+    details.addEventListener(
+      "click",
+      () => {
+        const object = details.querySelector("object[data-data]");
+
+        object.setAttribute("data", object.getAttribute("data-data"));
+      },
+      { once: true },
+    );
+  });
+</script>
+
+</body>
+
+
+</html>
+</html>

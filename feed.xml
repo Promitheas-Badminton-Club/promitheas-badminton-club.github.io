@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Promitheas BC</title>
+  <link>https://badmintonpaphos.com/</link>
+  <atom:link href="https://badmintonpaphos.com/feed.xml" rel="self" type="application/rss+xml" />
+  <description>Experience inclusive badminton at Promitheas Badminton Club in Paphos, Cyprus. Enjoy recreational play and junior training. Whether you&#39;re a beginner or a seasoned player, find your place in our welcoming community. Contact us for a trial session or more information!
+</description>
+  <language>en</language>
+  <itunes:summary>TBD
+</itunes:summary>
+  <itunes:subtitle>Promitheas Badminton Club news feed
+</itunes:subtitle>
+  <itunes:author>Promitheas BC</itunes:author>
+  <itunes:explicit>no</itunes:explicit>
+  <itunes:category text="Sports" />
+  <itunes:keywords>Badminton, Paphos, Cyprus, Sports</itunes:keywords>
+  <itunes:image href="https://badmintonpaphos.com/asset/promitheas_logo.png" />
+
+  <itunes:owner>
+    <itunes:name>Promitheas BC</itunes:name>
+    <itunes:email>PromitheasB@gmail.com</itunes:email>
+  </itunes:owner>
+
+  
+  
+  <item>
+    <title>Kids</title>
+    <link>https://badmintonpaphos.com/ru/kids/</link>
+    <guid>https://badmintonpaphos.com/ru/kids/</guid>
+    <pubDate>Sat, 25 Jan 2025 19:09:48 GMT</pubDate>
+
+    <itunes:summary>TODO</itunes:summary>
+    <itunes:subtitle>TODO</itunes:subtitle>
+    <itunes:author>Promitheas BC</itunes:author>
+
+    <description>
+      TODO
+    </description>
+
+    <content:encoded>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://badmintonpaphos.com/ru/kids/#calendar&quot;&gt;Calendar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://badmintonpaphos.com/ru/kids/#contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;calendar&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://badmintonpaphos.com/ru/kids/#calendar&quot; aria-label=&quot;Section titled &amp;quot;calendar&amp;quot;&quot; title=&quot;Link to this section&quot;&gt;#&lt;/a&gt; Calendar&lt;/h2&gt;
+&lt;iframe loading=&quot;lazy&quot; title=&quot;Children Calendar&quot; src=&quot;https://calendar.google.com/calendar/embed?src=df7aa66bfa29f536097c661404e0e3a1c9c9917c01228424627574fbc5cd37a3%40group.calendar.google.com&amp;mode=AGENDA&amp;amp;ctz=Asia%2FNicosia&amp;amp;hl=ru&quot; style=&quot;border:0&quot; width=&quot;100%&quot; height=&quot;600&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt;
+&lt;h2 id=&quot;contact&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://badmintonpaphos.com/ru/kids/#contact&quot; aria-label=&quot;Section titled &amp;quot;contact&amp;quot;&quot; title=&quot;Link to this section&quot;&gt;#&lt;/a&gt; Contact&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;tel:+357000000&quot;&gt;+357000000&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;mailto:someemail@example.com&quot;&gt;someemail@example.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Telegram&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
+
+    
+
+    
+  </item>
+  
+  
+  <item>
+    <title>Russian</title>
+    <link>https://badmintonpaphos.com/ru/</link>
+    <guid>https://badmintonpaphos.com/ru/</guid>
+    <pubDate>Sat, 25 Jan 2025 19:09:48 GMT</pubDate>
+
+    <itunes:summary>Who we are in russian</itunes:summary>
+    <itunes:subtitle>Who we are in russian</itunes:subtitle>
+    <itunes:author>Promitheas BC</itunes:author>
+
+    <description>
+      Who we are in russian
+    </description>
+
+    <content:encoded>&lt;p&gt;This is the russian page&lt;/p&gt;
+</content:encoded>
+
+    
+
+    
+  </item>
+  
+  
+  <item>
+    <title>Calendar</title>
+    <link>https://badmintonpaphos.com/ru/calendar/</link>
+    <guid>https://badmintonpaphos.com/ru/calendar/</guid>
+    <pubDate>Sat, 25 Jan 2025 19:09:48 GMT</pubDate>
+
+    <itunes:summary>Check playing times and other events.
+</itunes:summary>
+    <itunes:subtitle>Check playing times and other events.
+</itunes:subtitle>
+    <itunes:author>Promitheas BC</itunes:author>
+
+    <description>
+      Check playing times and other events.
+
+    </description>
+
+    <content:encoded>
+&lt;iframe loading=&quot;lazy&quot; title=&quot;Adults Calendar&quot; src=&quot;https://calendar.google.com/calendar/embed?src=d0dc61182ea51b9e4df978b26caac2ee050a96c42c3c0ecb854765cac72db29e%40group.calendar.google.com&amp;amp;ctz=Asia%2FNicosia&amp;amp;hl=ru&amp;mode=AGENDA&quot; style=&quot;border:0&quot; width=&quot;100%&quot; height=&quot;600&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;
+  &lt;a href=&quot;https://calendar.google.com/calendar/ical/d0dc61182ea51b9e4df978b26caac2ee050a96c42c3c0ecb854765cac72db29e%40group.calendar.google.com/public/basic.ics&quot;&gt;ICS&lt;/a&gt;
+&lt;/p&gt;
+</content:encoded>
+
+    
+
+    
+  </item>
+  
+  
+  <item>
+    <title>Kids</title>
+    <link>https://badmintonpaphos.com/en/kids/</link>
+    <guid>https://badmintonpaphos.com/en/kids/</guid>
+    <pubDate>Sat, 25 Jan 2025 19:09:48 GMT</pubDate>
+
+    <itunes:summary>We offer a complete training for kids.</itunes:summary>
+    <itunes:subtitle>We offer a complete training for kids.</itunes:subtitle>
+    <itunes:author>Promitheas BC</itunes:author>
+
+    <description>
+      We offer a complete training for kids.
+    </description>
+
+    <content:encoded>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://badmintonpaphos.com/en/kids/#calendar&quot;&gt;Calendar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://badmintonpaphos.com/en/kids/#contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;calendar&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://badmintonpaphos.com/en/kids/#calendar&quot; aria-label=&quot;Section titled &amp;quot;calendar&amp;quot;&quot; title=&quot;Link to this section&quot;&gt;#&lt;/a&gt; Calendar&lt;/h2&gt;
+&lt;iframe loading=&quot;lazy&quot; title=&quot;Children Calendar&quot; src=&quot;https://calendar.google.com/calendar/embed?src=df7aa66bfa29f536097c661404e0e3a1c9c9917c01228424627574fbc5cd37a3%40group.calendar.google.com&amp;mode=AGENDA&amp;amp;ctz=Asia%2FNicosia&amp;amp;hl=en&quot; style=&quot;border:0&quot; width=&quot;100%&quot; height=&quot;600&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt;
+&lt;h2 id=&quot;contact&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://badmintonpaphos.com/en/kids/#contact&quot; aria-label=&quot;Section titled &amp;quot;contact&amp;quot;&quot; title=&quot;Link to this section&quot;&gt;#&lt;/a&gt; Contact&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;tel:+357000000&quot;&gt;+357000000&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;mailto:someemail@example.com&quot;&gt;someemail@example.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Telegram&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
+
+    
+
+    
+  </item>
+  
+  
+  <item>
+    <title>English</title>
+    <link>https://badmintonpaphos.com/en/</link>
+    <guid>https://badmintonpaphos.com/en/</guid>
+    <pubDate>Sat, 25 Jan 2025 19:09:48 GMT</pubDate>
+
+    <itunes:summary>About</itunes:summary>
+    <itunes:subtitle>About</itunes:subtitle>
+    <itunes:author>Promitheas BC</itunes:author>
+
+    <description>
+      About
+    </description>
+
+    <content:encoded>&lt;p&gt;Experience inclusive badminton at Promitheas Badminton Club in Paphos, Cyprus. Enjoy recreational play and junior training. Whether you&#39;re a beginner or a seasoned player, find your place in our welcoming community. Contact us for a trial session or more information!&lt;/p&gt;
+&lt;iframe loading=&quot;lazy&quot; title=&quot;promitheas google maps location&quot; src=&quot;https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d30969.00727662486!2d32.38969882402512!3d34.78775045525753!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14e706f987855cfd%3A0x1c8bf15674db946f!2sPromitheas%20Badminton%20Club!5e0!3m2!1sen!2s!4v1682168635664!5m2!1sen!2s&quot; width=&quot;600&quot; height=&quot;450&quot; style=&quot;border:0&quot; allowfullscreen=&quot;&quot; referrerpolicy=&quot;no-referrer-when-downgrade&quot;&gt;&lt;/iframe&gt;
+&lt;h2 id=&quot;adults&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://badmintonpaphos.com/en/#adults&quot; aria-label=&quot;Section titled &amp;quot;adults&amp;quot;&quot; title=&quot;Link to this section&quot;&gt;#&lt;/a&gt; Adults&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Schedule:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Monday:&lt;/strong&gt; 19:30 – 21:30&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Wednesday:&lt;/strong&gt; 20:30 – 22:30&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Fees:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Single Session:&lt;/strong&gt; €5&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Monthly Membership:&lt;/strong&gt; €15&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Yearly Membership:&lt;/strong&gt; €75&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We welcome beginners and experienced players. Interested?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Contact us for more information about recreational play.&lt;/li&gt;
+&lt;li&gt;Register after the two times tryout period.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;contact&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://badmintonpaphos.com/en/#contact&quot; aria-label=&quot;Section titled &amp;quot;contact&amp;quot;&quot; title=&quot;Link to this section&quot;&gt;#&lt;/a&gt; Contact&lt;/h2&gt;
+&lt;p&gt;Want to try badminton? Call or send us a message.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Email:&lt;/strong&gt; &lt;a href=&quot;mailto:promitheasb@gmail.com&quot;&gt;promitheasb@gmail.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Phone:&lt;/strong&gt; +357 96 401 987&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;WhatsApp:&lt;/strong&gt; &lt;a href=&quot;https://wa.me&quot;&gt;Open Chat&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Telegram:&lt;/strong&gt; &lt;a href=&quot;https://t.me&quot;&gt;Open Chat&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Address:&lt;/strong&gt; &lt;a href=&quot;https://www.google.com&quot;&gt;QCH6+455, Paphos, Cyprus&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
+
+    
+
+    
+  </item>
+  
+  
+  <item>
+    <title>Frequently Asked Questions</title>
+    <link>https://badmintonpaphos.com/en/faq/</link>
+    <guid>https://badmintonpaphos.com/en/faq/</guid>
+    <pubDate>Sat, 25 Jan 2025 19:09:48 GMT</pubDate>
+
+    <itunes:summary></itunes:summary>
+    <itunes:subtitle></itunes:subtitle>
+    <itunes:author>Promitheas BC</itunes:author>
+
+    <description>
+      
+    </description>
+
+    <content:encoded>&lt;p&gt;&lt;strong&gt;How much does it cost?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Your first two sessions are complimentary! If you’re keen to continue, simply register and choose the subscription that suits you best.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What if I can’t afford the membership?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Don’t worry if finances are tight. We offer a sponsorship program, ensuring everyone has a chance to enjoy badminton.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What do I need to play?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Make sure you’re geared up with comfortable attire for easy movement, stay hydrated with water, and wear non-skid indoor sports shoes.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;How can I get better at badminton?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Looking to level up your badminton skills? We’ve curated a collection of top-notch instructional videos on YouTube. Dive in and enhance your gameplay! Check them out &lt;a href=&quot;https://www.youtube.com&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;How can I deregister and request the removal of my data?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;You can deregister and request the removal of your data by filling out our &lt;a href=&quot;https://forms.gle/X5MkupDWDiPix35W9&quot;&gt;deregistration form&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;How to get there with Public Transport?&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;From Peyia:&lt;/strong&gt; Get on the 615, get off at the Lidl, and walk for 2 minutes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Any more questions? Feel free to drop us a line!&lt;/p&gt;
+</content:encoded>
+
+    
+
+    
+  </item>
+  
+  
+  <item>
+    <title>Calendar</title>
+    <link>https://badmintonpaphos.com/en/calendar/</link>
+    <guid>https://badmintonpaphos.com/en/calendar/</guid>
+    <pubDate>Sat, 25 Jan 2025 19:09:48 GMT</pubDate>
+
+    <itunes:summary>Check playing times and other events.
+</itunes:summary>
+    <itunes:subtitle>Check playing times and other events.
+</itunes:subtitle>
+    <itunes:author>Promitheas BC</itunes:author>
+
+    <description>
+      Check playing times and other events.
+
+    </description>
+
+    <content:encoded>
+&lt;iframe loading=&quot;lazy&quot; title=&quot;Adults Calendar&quot; src=&quot;https://calendar.google.com/calendar/embed?src=d0dc61182ea51b9e4df978b26caac2ee050a96c42c3c0ecb854765cac72db29e%40group.calendar.google.com&amp;amp;ctz=Asia%2FNicosia&amp;amp;hl=en&amp;mode=AGENDA&quot; style=&quot;border:0&quot; width=&quot;100%&quot; height=&quot;600&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt;
+</content:encoded>
+
+    
+
+    
+  </item>
+  
+</channel>
+</rss>
