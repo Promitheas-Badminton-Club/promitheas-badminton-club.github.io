@@ -4,4 +4,4 @@ description: Join or doubles ladder tournement.
 tags: published
 ---
 
-Doubles Ladder
+We are looking for people to play in the doubles ladder tournement
