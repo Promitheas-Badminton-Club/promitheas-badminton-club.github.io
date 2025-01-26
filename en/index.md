@@ -1,6 +1,7 @@
 ---
 title: Adults
-description: About
+description: Join one of the most friendly clubs in Paphos.
+date: 2025-01-25
 tags: [published, spotlight]
 ---
 

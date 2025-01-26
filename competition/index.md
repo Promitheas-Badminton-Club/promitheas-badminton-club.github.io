@@ -1,7 +1,7 @@
 ---
 title: Competition
 description: |
-  Challenge yourself with some friendly competition.
+  Challenge yourself with some friendly competition 🤺
 tags: [published, spotlight]
 date: 2025-01-24
 ---
