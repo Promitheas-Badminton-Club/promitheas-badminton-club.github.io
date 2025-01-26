@@ -9,6 +9,9 @@ import * as mm from "music-metadata";
 import markdownTOC from "markdown-it-toc-done-right";
 import markdownAnchor from "markdown-it-anchor";
 import feed2json from "feed2json";
+import Debug from 'debug';
+
+const debug = Debug('badmintonpaphos')
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -218,21 +221,21 @@ export default function (eleventyConfig) {
     try {
       // Check if the XML feed file exists before proceeding
       if (!fs.existsSync(feedXmlPath)) {
-        console.error(`File not found: ${feedXmlPath}`);
+        debug(`File not found: ${feedXmlPath}`);
         return;
       }
 
       const stream = fs.createReadStream(feedXmlPath);
       feed2json.fromStream(stream, feedXmlPath, (err, json) => {
         if (err) {
-          console.error("Error converting feed:", err);
+          debug("Error converting feed:", err);
           return;
         }
         fs.writeFileSync(feedJsonPath, JSON.stringify(json, null, 2));
-        console.log("feed.json created successfully");
+        debug("feed.json created successfully");
       });
     } catch (error) {
-      console.error("Error processing feed:", error);
+      debug("Error processing feed:", error);
     }
   });
 
@@ -249,7 +252,7 @@ export default function (eleventyConfig) {
   });
 
   eleventyConfig.addFilter("excludes", function (items) {
-    console.log(items)
+    debug(items)
     return !items?.includes('published')
   })
 
