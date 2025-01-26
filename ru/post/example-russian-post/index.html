@@ -1,11 +1,9 @@
 <html>
 <!doctype html>
-<html dir="" lang="">
+<html dir="" lang="ru">
 <head>
   <meta charset="UTF-8">
 
-  
-  <meta name="robots" content="noindex">
   
 
 
@@ -14,8 +12,8 @@
   <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Promitheas BC | Search</title>
-  <meta name="description" content="">
+  <title>Promitheas BC | Russian Title</title>
+  <meta name="description" content="Russian description">
 
 
   <link rel="icon" href="/asset/favicon.ico" type="image/x-icon">
@@ -26,11 +24,11 @@
   <link rel="icon" href="/asset/android-chrome-512x512.png" sizes="512x512" type="image/png">
   <meta name="theme-color" content="#ffffff">  
 
-  <meta property="og:title" content="Search">
+  <meta property="og:title" content="Russian Title">
   <meta property="og:type" content="article">
   
   <meta property="og:url" content="https://badmintonpaphos.com/undefined">
-  <meta property="og:description" content="">
+  <meta property="og:description" content="Russian description">
 
   <style>
 
@@ -303,14 +301,14 @@
     <ul>
       <li><a href="/">Home</a></li>
       <li><a lang="en" href="/en/">English</a></li>
-      <li><a lang="ru" href="/ru/">Русский</a></li>
+      <li><a lang="ru" aria-current="page" href="/ru/">Русский</a></li>
       <style>
         .search svg {
           height: 0.7em;
           fill: var(--accent);
         }
       </style>
-      <li class="search"><a title="Search" aria-current="page" href="/search">
+      <li class="search"><a title="Search" href="/search">
           <span class="sr-only">Search</span>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"></path></svg>
       </a></li>
@@ -322,6 +320,12 @@
 
   <nav class="menu no-print">
     
+<ul>
+  <li><a href="/ru/kids">Kids 🏸</a></li>
+  <li><a href="/ru/">Adults</a></li>
+  <li><a href="/competition">Competition</a></li>
+  <li><a href="/ru/calendar">Calendar</a></li>
+</ul>
 
   </nav>
 
@@ -338,94 +342,19 @@
   </nav>
   -->
     <h1>
-      Search
+      Russian Title
     </h1>
 
     <p class="subtle">
       
       
+        <time>28 января 2025 г.</time>
+      
     </p>
 
     
 
-    
-
-
-<h1>Search</h1>
-<form action="/search" method="GET">
-  <label class="sr-only" for="query">Query</label>
-  <input type="text" placeholder="Query..." id="query" name="q">
-  <button type="submit">Search</button>
-</form>
-
-<h2>Results</h2>
-<div id="results" aria-live="polite">
-  
-
-
-  
-<article dir="" lang="en"><header>
-    <h3><a href="/en/post/website-updates/">
-          Website Updates
-        </a></h3>
-  </header>
-
-  <p class="meta"><time datetime="Sun Jan 26 2025 00:00:00 GMT+0000 (Coordinated Universal Time)">
-        January 26, 2025
-      </time>
-      <br>
-  </p><p>Promitheas Introduces Competitions and Badminton for Kids</p>
-</article>
-
-
-
-  
-
-
-  
-<article dir="" lang="ru"><header>
-    <h3><a href="/ru/post/example-russian-post/">
-          Russian Title
-        </a></h3>
-  </header>
-
-  <p class="meta"><time datetime="Tue Jan 28 2025 00:00:00 GMT+0000 (Coordinated Universal Time)">
-        28 января 2025 г.
-      </time>
-      <br>
-  </p><p>Russian description</p>
-</article>
-
-
-
-  
-</div>
-
-<script>
-
-  (function() {
-    const query = document.getElementById('query');
-    const params = new URLSearchParams(window.location.search);
-    const items = document.querySelectorAll('#results > article'); // Corrected method
-
-    query.value = params.get('q') ?? ''
-
-    function containsAllQueryTermsCaseInsensitive(item) {
-      const queryTerms = query.value.toLowerCase().split(' ').filter(Boolean); // Split and filter out empty terms
-      const itemText = item.textContent.toLowerCase(); // Get item text in lower case
-
-      return queryTerms.every(term => itemText.includes(term)); // Check if all terms are included
-    }
-
-    Array.from(items).forEach(item => { // Convert HTMLCollection to array for forEach
-      if (containsAllQueryTermsCaseInsensitive(item))
-        item.style.display = 'block'; // Show item
-      else
-        item.style.display = 'none'; // Hide item
-    });
-  })();
-
-</script>
+    <p>The published tag has to be set to make it searchable on google and be placed on the homepage</p>
 
 
     
@@ -476,7 +405,7 @@
       }
     </style>
 
-  <picture><source type="image/webp" srcset="/search/5vKin1mmyN-247.webp 247w" sizes="100vw"><img loading="lazy" decoding="async" class="hehe" src="/search/5vKin1mmyN-247.jpeg" border="0" aria-hidden="true" alt="animated-badminton-image-0053" width="247" height="308"></picture>
+  <picture><source type="image/webp" srcset="/ru/post/example-russian-post/5vKin1mmyN-247.webp 247w" sizes="100vw"><img loading="lazy" decoding="async" class="hehe" src="/ru/post/example-russian-post/5vKin1mmyN-247.jpeg" border="0" aria-hidden="true" alt="animated-badminton-image-0053" width="247" height="308"></picture>
 
   <footer class="no-print">
 

@@ -29,6 +29,29 @@
   
   
   <item>
+    <title>Russian Title</title>
+    <link>https://badmintonpaphos.com/ru/post/example-russian-post/</link>
+    <guid>https://badmintonpaphos.com/ru/post/example-russian-post/</guid>
+    <pubDate>Tue, 28 Jan 2025 24:00:00 GMT</pubDate>
+
+    <itunes:summary>Russian description</itunes:summary>
+    <itunes:subtitle>Russian description</itunes:subtitle>
+    <itunes:author>Promitheas BC</itunes:author>
+
+    <description>
+      Russian description
+    </description>
+
+    <content:encoded>&lt;p&gt;The published tag has to be set to make it searchable on google and be placed on the homepage&lt;/p&gt;
+</content:encoded>
+
+    
+
+    
+  </item>
+  
+  
+  <item>
     <title>Website Updates</title>
     <link>https://badmintonpaphos.com/en/post/website-updates/</link>
     <guid>https://badmintonpaphos.com/en/post/website-updates/</guid>
