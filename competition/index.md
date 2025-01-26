@@ -12,6 +12,7 @@ Promitheas BC manages a few ladder tournements.
 - [Doubles](./doubles)
 
 > For now the ladder is not split into age or gender. This is mainly because we don't have enough members enrolled.
+> Competition pages are updated at midnight.
 
 
 ## Rules
