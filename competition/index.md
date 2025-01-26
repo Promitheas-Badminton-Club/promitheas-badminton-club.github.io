@@ -14,7 +14,6 @@ Promitheas BC manages a few ladder tournements.
 > For now the ladder is not split into age or gender. This is mainly because we don't have enough members enrolled.
 > Competition pages are updated at midnight.
 
-
 ## Rules
 
 1. **Player Entry**
@@ -31,5 +30,9 @@ Promitheas BC manages a few ladder tournements.
    - Matches are played in a **best-of-three** format (first to 2 game wins).
    - The score is tracked in a `x-y` format (e.g., "21-19 19-21 21-18").
 
-4. **Ladder Reset**
+4. **Inactive Players**
+   - Players who are inactive for **2 weeks** are removed from the ladder.  
+   - When inactive players return by playing a game, they are **re-added to the ladder** at the position of the player they defeated or, if they lose, at the **bottom of the ladder**. In either case, they keep their stats.
+
+5. **Ladder Reset**
    - The ladder is **reset every year**.
