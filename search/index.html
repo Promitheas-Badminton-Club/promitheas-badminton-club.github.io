@@ -104,25 +104,6 @@
       object-position: 50% top;
     }
 
-
-    :root, ::backdrop {
-      --bg-transparent: #FFFFFF44; /* Assuming a semi-transparent white background */
-      --accent: #048841; /* Primary green color */
-      --accent-hover: #333333; /* Dark gray for hover state */
-      --accent-bg: cornsilk;
-    }
-
-    @media (prefers-color-scheme: dark) {
-      :root,
-      ::backdrop {
-        --bg: #000000AA; /* Semi-transparent black background */
-        --bg-transparent: #00000044; /* More transparent black background */
-        --accent: #048841; /* Primary green color */
-        --accent-hover: #555555; /* Medium gray for hover state */
-        --accent-bg: #33333366;
-      }
-    }
-
     :root, ::backdrop {
       --bg-transparent: #FFFFFF44; /* Semi-transparent white background */
       --accent: #BB1D2C; /* Dark reddish primary color */
@@ -136,6 +117,7 @@
         --bg-transparent: #00000044; /* More transparent black background */
         --accent: #BB1D2C; /* Dark reddish primary color */
         --accent-hover: #A11A27; /* Slightly darker shade for hover state */
+        --accent-bg: #33333366;
       }
     }
 
