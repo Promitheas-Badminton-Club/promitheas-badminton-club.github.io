@@ -1,5 +1,5 @@
 ---
-title: Competition
+title: Competition ⚔️
 description: |
   Challenge yourself with some friendly competition 🤺
 tags: [published, spotlight]
