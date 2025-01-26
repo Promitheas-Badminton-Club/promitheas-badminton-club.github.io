@@ -3,6 +3,7 @@ title: Adults
 description: Join one of the most friendly clubs in Paphos.
 date: 2025-01-25
 tags: [published, spotlight]
+image: /asset/adults.jpeg
 ---
 
 Experience inclusive badminton at Promitheas Badminton Club in Paphos, Cyprus. Enjoy recreational play and junior training. Whether you're a beginner or a seasoned player, find your place in our welcoming community. Contact us for a trial session or more information!

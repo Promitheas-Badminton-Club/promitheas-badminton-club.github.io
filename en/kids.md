@@ -3,6 +3,7 @@ title: Kids
 description: We offer a complete training for kids.
 tags: [spotlight, published]
 date: 2025-01-26
+image: /asset/kids.jpeg
 ---
 
 ## Schedule
@@ -31,5 +32,5 @@ The sport develops better visual abilities and hand-eye coordination by continuo
 
 ## Contact
 
-- **Phone:** +357 96012444
+- **Phone:** [+357 96012444](tel:+35796012444)
 - **Email:** tatjana.obraztsov@gmail.com
