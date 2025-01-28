@@ -1,0 +1,27 @@
+{% extends 'competition_layout.njk' %}
+
+<!-- Consider moving this import contents into this file -->
+{% from "competition.njk" import ranking, matches %} 
+
+{% block main %}
+
+{% markdown %}
+
+📝 [Submit match results]({{form_url}}) using the results form.
+
+💬 [Join the chat]({{whatsapp_url}}) on WhatsAppto challenge others.
+
+> Updates at midnight. Last update at **{{now | datetime}}** UTC.
+
+## Ranking
+{% endmarkdown %}
+
+{{ ranking(ladder) }}
+
+{% markdown %}
+## Games
+{% endmarkdown %}
+
+{{ matches(games, spreadsheet_url) }}
+
+{% endblock %}

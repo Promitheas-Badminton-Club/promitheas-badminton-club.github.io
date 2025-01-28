@@ -2,25 +2,7 @@
 title: Doubles Competition 🧑‍🤝‍🧑
 description: Join or doubles ladder tournement.
 tags: published
+form_url: https://forms.gle/ob2s6FHtBJbkQoYm6
+whatsapp_url: https://chat.whatsapp.com/CIl4T9qvd4Q1BiYNMVQXp8
+layout: competition_results_layout.njk
 ---
-
-<blockquote>
-We are looking for people to play in the doubles ladder tournement
-</blockquote>
-
-{% from "competition.njk" import ranking, matches %} 
-
-{% markdown %}
-- Submit a match result using [the results form](https://forms.gle/ob2s6FHtBJbkQoYm6).
-- Join the Doubles Ladder Tournement chat on [WhatsApp](https://chat.whatsapp.com/CIl4T9qvd4Q1BiYNMVQXp8) to challenge others.
-
-## Ranking
-{% endmarkdown %}
-
-{{ ranking(ladder) }}
-
-{% markdown %}
-## Games
-{% endmarkdown %}
-
-{{ matches(games) }}

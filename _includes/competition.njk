@@ -18,10 +18,19 @@
 </ol>
 {% endmacro %}
 
-{% macro matches(games) %}
+{% macro matches(games, spreadsheet_url) %}
+
+{% markdown %}
+Click magnifier to view match in the spreadsheet.
+{% endmarkdown %}
+
 <figure>
   <table tabindex="0">
     <thead>
+      <th 
+        title="View match in spreadsheet"
+        aria-label="View match in spreadsheet"
+      ></th>
       <th>Challenger</th>
       <th>Challenged</th>
       <th>Results</th>
@@ -30,6 +39,15 @@
     <tbody>
     {% for game in games | reverse %}
       <tr>
+        <td>
+          <a 
+            target="_blank"
+            href="{{spreadsheet_url}}&range={{game.Row}}:{{game.Row}}"
+            title="View match in spreadsheet"
+          >
+            🔍
+          </a>
+        </td>
         <td>
         {{game.Challenger}} 
         </td>

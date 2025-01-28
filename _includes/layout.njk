@@ -451,6 +451,8 @@
 
     {{ content | safe }}
 
+    {% block main %}{% endblock %}
+
     {% from "preview.njk" import preview %}
 
     {% if files and files.length > 0 %}

@@ -40,6 +40,11 @@ async function fetchGoogleSheetData(url) {
   const records = parse(csvText, {
     columns: true,
     skip_empty_lines: true,
+    on_record(record, { lines }) {
+      record.Row = lines; 
+
+      return record;
+    },  
   });
 
   return records;
@@ -120,6 +125,7 @@ export default async function data (url) {
   debug(ladderSystem);
 
   ladderData.games = csvData;
+  ladderData.spreadsheet_url = url;
 
   return ladderData;
 }
