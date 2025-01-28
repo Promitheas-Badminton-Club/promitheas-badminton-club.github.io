@@ -6,7 +6,7 @@ tags: [published, spotlight]
 image: /asset/adults.jpeg
 ---
 
-Experience inclusive badminton at Promitheas Badminton Club in Paphos, Cyprus. Enjoy recreational play and junior training. Whether you're a beginner or a seasoned player, find your place in our welcoming community. Contact us for a trial session or more information!
+Experience inclusive badminton at Promitheas Badminton Club in Paphos, Cyprus. Enjoy recreational play and junior training. Whether you're a beginner or a seasoned player, find your place in our welcoming community.
 
 <iframe loading="lazy" title="promitheas google maps location" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d30969.00727662486!2d32.38969882402512!3d34.78775045525753!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14e706f987855cfd%3A0x1c8bf15674db946f!2sPromitheas%20Badminton%20Club!5e0!3m2!1sen!2s!4v1682168635664!5m2!1sen!2s" width="600" height="450" style="border:0" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
