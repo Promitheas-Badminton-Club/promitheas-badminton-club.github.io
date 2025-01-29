@@ -1,5 +1,5 @@
 ---
-title: Kids
+title: Дети
 description: TODO
 tags: [published, spotlight]
 date: 2025-01-26
@@ -12,6 +12,5 @@ image: /asset/kids.jpeg
 
 ## Contact
 
-- [+357000000](tel:+357000000)
-- someemail@example.com
-- Telegram
+- **Phone:** [+357 96012444](tel:+35796012444)
+- **Email:** tatjana.obraztsov@gmail.com
