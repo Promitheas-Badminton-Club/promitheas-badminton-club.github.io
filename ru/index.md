@@ -1,6 +1,6 @@
 ---
-title: Adults
-description: Who we are in russian
+title: Взрослые
+description: TODO
 date: 2025-01-25
 tags: [published, spotlight]
 image: /asset/adults.jpeg
