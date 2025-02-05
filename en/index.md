@@ -1,12 +1,10 @@
 ---
 title: Adults
-description: Join one of the most friendly clubs in Paphos.
+description: Promitheas Badminton Club adult sessions.
 date: 2025-01-25
 tags: [published, spotlight]
 image: /asset/adults.jpeg
 ---
-
-Experience inclusive badminton at Promitheas Badminton Club in Paphos, Cyprus. Enjoy recreational play and junior training. Whether you're a beginner or a seasoned player, find your place in our welcoming community.
 
 <iframe loading="lazy" title="promitheas google maps location" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d30969.00727662486!2d32.38969882402512!3d34.78775045525753!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14e706f987855cfd%3A0x1c8bf15674db946f!2sPromitheas%20Badminton%20Club!5e0!3m2!1sen!2s!4v1682168635664!5m2!1sen!2s" width="600" height="450" style="border:0" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
@@ -23,14 +21,15 @@ Experience inclusive badminton at Promitheas Badminton Club in Paphos, Cyprus. E
 - **Monthly Membership:** €15
 - **Yearly Membership:** €75
 
+## Trial
+
 We welcome beginners and experienced players. Interested?
 
-- Contact us for more information about recreational play.
-- Register after the two times tryout period.
+1. Come to the club with water and clothing that allows for free movement. You can borrow a racket.
+2. Contact us if you have any questions.
+3. Register after the two times trial period.
 
 ## Contact
-
-Want to try badminton? Call or send us a message.
 
 - **Email**: [promitheasb@gmail.com](mailto:promitheasb@gmail.com)
 - **Phone**: [+357 96 401 987](tel:+35796401987)
