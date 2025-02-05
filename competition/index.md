@@ -1,7 +1,6 @@
 ---
 title: Competition ⚔️
-description: |
-  Challenge yourself with some friendly competition 🤺
+description: 🤺 Challenge yourself and compete with others in badminton while tracking your progress in real time.
 tags: [published, spotlight]
 date: 2025-01-24
 ---
