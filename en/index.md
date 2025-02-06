@@ -25,14 +25,14 @@ image: /asset/adults.jpeg
 
 We welcome beginners and experienced players. Interested?
 
-1. Come to the club with water and clothing that allows for free movement. You can borrow a racket.
+1. Come to the club with water, shoes, and clothing that allows for free movement. You can borrow a racket.
 2. Contact us if you have any questions.
-3. Register after the two times trial period.
+3. [Register](https://forms.gle/VRGHEMKVAUHnC435A) after the two times trial period.
 
 ## Contact
 
+💬 [WhatsApp](https://chat.whatsapp.com/LDX0gEpeyzB2VzV7EgThvE) or [Telegram](https://t.me/+PTkqrghQIVJhM2I8)
+
 - **Email**: [promitheasb@gmail.com](mailto:promitheasb@gmail.com)
 - **Phone**: [+357 96 401 987](tel:+35796401987)
-- **WhatsApp**: [Open Chat](https://wa.me/35796401987)
-- **Telegram**: [Open Chat](https://t.me/bigfont)
 - **Address**: [QCH6+455, Paphos, Cyprus](https://www.google.com/maps/dir/?api=1&destination=Promitheas+Badminton+Club)
