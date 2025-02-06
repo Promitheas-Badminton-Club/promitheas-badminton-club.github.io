@@ -2,7 +2,7 @@
 title: Взрослые  
 description: Сессии для взрослых в клубе бадминтона Промитей.  
 date: 2025-01-25  
-tags: [опубликовано, в центре внимания]  
+tags: [published, spotlight]
 image: /asset/adults.jpeg  
 ---
 
