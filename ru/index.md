@@ -31,7 +31,8 @@ image: /asset/adults.jpeg
 
 ## Контакты
 
+💬 [WhatsApp](https://chat.whatsapp.com/LDX0gEpeyzB2VzV7EgThvE) or [Telegram](https://t.me/+PTkqrghQIVJhM2I8)
+
 - **Электронная почта:** [tatjana.obraztsov@gmail.com](mailto:tatjana.obraztsov@gmail.com)  
 - **Телефон:** [+357 96012444](tel:+35796012444)  
 - **Адрес:** [QCH6+455, Пафос, Кипр](https://www.google.com/maps/dir/?api=1&destination=Promitheas+Badminton+Club)
-- [WhatsApp](https://chat.whatsapp.com/IEyI04JSKu3LNTOEkJYWpP) or [Telegram](https://t.me/+PTkqrghQIVJhM2I8)
