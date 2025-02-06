@@ -1,6 +1,7 @@
 ---
 title: Competition ⚔️
 description: 🤺 Challenge yourself and compete with others in badminton while tracking your progress in real time.
+image: /asset/coinflip.jpg
 tags: [published, spotlight]
 date: 2025-01-24
 ---
