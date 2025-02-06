@@ -31,7 +31,8 @@ image: /asset/adults.jpeg
 
 ## Επικοινωνία
 
+💬 [WhatsApp](https://chat.whatsapp.com/LDX0gEpeyzB2VzV7EgThvE) or [Telegram](https://t.me/+PTkqrghQIVJhM2I8)
+
 - **Email**: [promitheasb@gmail.com](mailto:promitheasb@gmail.com)
 - **Τηλέφωνο**: [+357 96 401 987](tel:+35796401987)
-- **WhatsApp**: [Άνοιγμα Συνομιλίας](https://wa.me/35796401987)
 - **Διεύθυνση**: [QCH6+455, Πάφος, Κύπρος](https://www.google.com/maps/dir/?api=1&destination=Promitheas+Badminton+Club)
