@@ -15,6 +15,30 @@ image: /asset/kids.jpeg
 
 <iframe loading="lazy" title="Children Calendar" src="https://calendar.google.com/calendar/embed?src=df7aa66bfa29f536097c661404e0e3a1c9c9917c01228424627574fbc5cd37a3%40group.calendar.google.com&mode=AGENDA&amp;ctz=Asia%2FNicosia&amp;hl={{lang}}" style="border:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
 
+## Training Types
+
+We offer two types of training.
+
+### PLAY Sessions (Saturdays)
+
+- Emphasize **fun, social interaction, and participation**.
+- Open to **all skill levels**, including beginners.
+- Players mainly **play games** (singles and doubles).
+- Beginners receive **basic coaching** to help them reach a level where they can join games.
+- The focus is on **enjoyment, making friends, and improving fitness** rather than intensive skill development.
+- Supervised games include some **tactical and technical advice**, but **training is not the main goal**.
+
+### Training Sessions (Weekdays)
+
+- Designed for players who want to **develop their skills seriously**.
+- More **structured** with a focus on **physical conditioning and technique**.
+- Includes:
+  - **Strength, speed, and agility training**.
+  - **Footwork drills** to improve movement on the court.
+  - **Hitting practices** to refine strokes and shot placement.
+  - **Conditioned games** that enhance tactical awareness.
+- Ends with a **cool-down and stretching**.
+
 ## Why Choose Badminton for Kids?
 
 ### Friendly Coaches
