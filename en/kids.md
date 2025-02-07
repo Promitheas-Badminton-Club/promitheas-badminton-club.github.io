@@ -61,5 +61,7 @@ The sport develops better visual abilities and hand-eye coordination by continuo
 
 ## Contact
 
+💬 [WhatsApp](https://chat.whatsapp.com/LDX0gEpeyzB2VzV7EgThvE) or [Telegram](https://t.me/promitheas_badminton_club_trial/2)
+
 - **Phone:** [+357 96012444](tel:+35796012444)
 - **Email:** tatjana.obraztsov@gmail.com

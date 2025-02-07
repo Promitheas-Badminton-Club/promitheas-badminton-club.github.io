@@ -31,7 +31,7 @@ We welcome beginners and experienced players. Interested?
 
 ## Contact
 
-💬 [WhatsApp](https://chat.whatsapp.com/LDX0gEpeyzB2VzV7EgThvE) or [Telegram](https://t.me/+PTkqrghQIVJhM2I8)
+💬 [WhatsApp](https://chat.whatsapp.com/LDX0gEpeyzB2VzV7EgThvE) or [Telegram](https://t.me/promitheas_badminton_club_trial/3)
 
 - **Email**: [promitheasb@gmail.com](mailto:promitheasb@gmail.com)
 - **Phone**: [+357 96 401 987](tel:+35796401987)
