@@ -13,7 +13,7 @@ It’s not just about winning—it’s about gaining new playing experience, tra
 
 🏸 Tournament Categories: Boys’ Singles & Girls’ Singles
 🏆 Prizes: Awards for 1st, 2nd, and 3rd places
-📍 Location: View on Google Maps
+📍 Location: Promitheas Badminton Club
 ⏰ Time: Starts at 13:00, finishes before 18:00
 💰 Entry Fee: €5 per participant
 
