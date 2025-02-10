@@ -247,6 +247,12 @@ export default function (eleventyConfig) {
     return items.filter(item => item.data.tags?.includes('published'))
   });
 
+  const now = Date.now();
+
+  eleventyConfig.addFilter("unexpired", function (items) {
+    return items.filter(item => new Date(item.data.deadline) > now)
+  })
+
   eleventyConfig.addFilter("unpublished", function (items) {
     return items.filter(item => !item.data.tags?.includes('published'))
   });

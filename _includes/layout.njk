@@ -200,6 +200,11 @@
     a {
       color: var(--accent-hover) !important; /* Set unvisited links to red */
       text-underline-offset: 0.4rem;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
     }
 
     blockquote {
@@ -310,6 +315,34 @@
       {% if page.url == url %} aria-current="page" {% endif %} href="{{url}}"
     {% endmacro %}
 
+
+  <style>
+    .update {
+      list-style-type: none;
+      margin: 0.5rem 0;
+      padding: 0;
+    }
+
+    .update li {
+      border-left: 1px solid var(--accent);
+      padding-left: 1ch;
+      margin: 0.5rem 0;
+    }
+  </style>
+  <ol class="update">
+
+    {% for item in collections.update | unexpired %}
+      <li>
+        <a href="{{item.href}}">
+          <span style="display: block; font-size: 60%; opacity: 0.69;">
+            {{item.data.deadline | datetime}}
+          </span>
+          {{item.data.title}}
+        </a>
+      </li>
+    {% endfor %}
+
+  </ol>
 
   <nav class="menu menu--main no-print">
     <img aria-hidden="true" class="logo" alt="Promitheas BC" src="/asset/logo.png">
