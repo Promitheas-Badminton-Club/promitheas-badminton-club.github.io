@@ -332,7 +332,7 @@
   <ol class="update">
 
     {% for item in collections.update | unexpired %}
-      <li>
+      <li lang="{{item.data.lang}">
         <a href="{{item.href}}">
           <span style="display: block; font-size: 60%; opacity: 0.69;">
             {{item.data.deadline | datetime}}
