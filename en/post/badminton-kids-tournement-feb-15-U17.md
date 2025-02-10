@@ -6,7 +6,7 @@ date: 2025-02-10
 deadline: 2025-02-15
 ---
 
-Promitheas Badminton Club invites young players to an exciting U17 Badminton Tournament on Saturday, February 15!
+Promitheas Badminton Club invites young players to an exciting U17 Badminton Tournament on Saturday, **February 15**.
 
 This tournament is a great chance for children born in 2009 or later to compete, improve their skills, and enjoy the game with players from different clubs in Paphos and Limassol.
 It’s not just about winning—it’s about gaining new playing experience, training psychological resilience in a competitive setting, and testing their skills against new opponents. These challenges help children grow, adapt to different playing styles, and find motivation to improve!
@@ -19,7 +19,7 @@ It’s not just about winning—it’s about gaining new playing experience, tra
 
 ## How to Register
 
-To sign up, please send a WhatsApp message to Tatjana at 96012444 with the following details:
+To sign up, please send a WhatsApp message to Tatjana at [+357 9601 2444](tel:+35796012444) with the following details:
 ✔ Child’s full name
 ✔ Boy or girl
 ✔ Date of birth
