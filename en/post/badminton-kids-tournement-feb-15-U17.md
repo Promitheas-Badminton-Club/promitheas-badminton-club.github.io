@@ -19,7 +19,8 @@ It’s not just about winning—it’s about gaining new playing experience, tra
 
 ## How to Register
 
-To sign up, please send a WhatsApp message to Tatjana at [+357 9601 2444](tel:+35796012444) with the following details:
+To sign up, please send a message to Tatjana at [+357 9601 2444](tel:+35796012444) or on [WhatsApp](https://wa.me/35796012444) with the following details:
+
 ✔ Child’s full name
 ✔ Boy or girl
 ✔ Date of birth
