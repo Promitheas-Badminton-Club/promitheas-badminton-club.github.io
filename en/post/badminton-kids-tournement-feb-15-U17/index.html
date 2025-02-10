@@ -15,11 +15,16 @@
   <title>Promitheas BC | Badminton Tournament for Kids and Teens (U17)</title>
   <meta name="description" content="Badminton Club invites young players to an exciting U17 Badminton Tournament on Saturday, February 15!">
 
+  <script>
+    window.env = JSON.parse(`{
+  "gtag": {}
+}`)
+  </script>
   <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-25JSPCJ2C8"></script>
   <script>window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'G-25JSPCJ2C8');
+    gtag('config', 'G-25JSPCJ2C8', window.env.gtag);
   </script>
 
   <link rel="icon" href="/asset/favicon.ico" type="image/x-icon">

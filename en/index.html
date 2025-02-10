@@ -15,11 +15,16 @@
   <title>Promitheas BC | Adults</title>
   <meta name="description" content="Promitheas Badminton Club adult sessions.">
 
+  <script>
+    window.env = JSON.parse(`{
+  "gtag": {}
+}`)
+  </script>
   <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-25JSPCJ2C8"></script>
   <script>window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'G-25JSPCJ2C8');
+    gtag('config', 'G-25JSPCJ2C8', window.env.gtag);
   </script>
 
   <link rel="icon" href="/asset/favicon.ico" type="image/x-icon">

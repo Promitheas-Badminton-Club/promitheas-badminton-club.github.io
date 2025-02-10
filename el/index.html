@@ -15,11 +15,16 @@
   <title>Promitheas BC | Ενήλικες</title>
   <meta name="description" content="Ανακαλύψτε τον Σύλλογο Μπαντμιντον Προμηθέας στην Πάφο με συνεδρίες για ενήλικες όλων των επιπέδων. Βελτιώστε τις δεξιότητές σας και διατηρηθείτε ενεργοί με συνδρομές.">
 
+  <script>
+    window.env = JSON.parse(`{
+  "gtag": {}
+}`)
+  </script>
   <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-25JSPCJ2C8"></script>
   <script>window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'G-25JSPCJ2C8');
+    gtag('config', 'G-25JSPCJ2C8', window.env.gtag);
   </script>
 
   <link rel="icon" href="/asset/favicon.ico" type="image/x-icon">
