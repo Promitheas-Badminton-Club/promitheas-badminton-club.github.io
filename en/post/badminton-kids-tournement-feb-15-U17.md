@@ -2,6 +2,7 @@
 title: Badminton Tournament for Kids and Teens (U17)
 description: Badminton Club invites young players to an exciting U17 Badminton Tournament on Saturday, February 15!
 date: 2025-02-10
+tags: [feed_item, spotlight, published]
 ---
 
 Promitheas Badminton Club invites young players to an exciting U17 Badminton Tournament on Saturday, February 15!
