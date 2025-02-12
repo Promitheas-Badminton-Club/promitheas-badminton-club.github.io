@@ -13,7 +13,10 @@ image: /asset/kids.jpeg
 - **Четверг** (Тренировка): 17:00 - 19:00 — Татьяна  
 - **Суббота** (Игровой клуб): 11:00 - 13:00 — Дэви, Татьяна, Бас  
 
-<iframe loading="lazy" title="Детский календарь" src="https://calendar.google.com/calendar/embed?src=df7aa66bfa29f536097c661404e0e3a1c9c9917c01228424627574fbc5cd37a3%40group.calendar.google.com&mode=AGENDA&amp;ctz=Asia%2FNicosia&amp;hl={{lang}}" style="border:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+<details>
+  <summary>🗓️ Google Calendar</summary>
+  <iframe loading="lazy" title="Детский календарь" src="https://calendar.google.com/calendar/embed?src=df7aa66bfa29f536097c661404e0e3a1c9c9917c01228424627574fbc5cd37a3%40group.calendar.google.com&mode=AGENDA&amp;ctz=Asia%2FNicosia&amp;hl={{lang}}" style="border:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+</details>
 
 ## Виды тренировок
 
