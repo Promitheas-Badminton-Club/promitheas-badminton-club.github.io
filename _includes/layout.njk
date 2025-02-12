@@ -403,12 +403,6 @@
       {% if date %}
         <time>{{date | date(lang)}}</time>
       {% endif %}
-      {% from "socials.njk" import socials %}
-      {% if noindex or nosocials %}
-        <!-- Hiding socials -->
-      {% else %}
-        {{ socials(page.url | withDomain) }}
-      {% endif %}
     </p>
 
 
@@ -569,6 +563,14 @@
       }
     </style>
 
+  {% from "socials.njk" import socials %}
+  {% if nosocials %}
+    <!-- Hiding socials -->
+  {% else %}
+    {{ socials(page.url | withDomain) }}
+  {% endif %}
+
+
   <img class="hehe" src="https://www.animatedimages.org/data/media/417/animated-badminton-image-0053.gif" border="0" aria-hidden="true" alt="animated-badminton-image-0053">
 
   <footer class="no-print">
@@ -596,6 +598,7 @@
 
   {% renderOnce %}
   {% endrenderOnce %}
+
   </body>
 
 
