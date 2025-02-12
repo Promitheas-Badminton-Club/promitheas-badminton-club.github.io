@@ -4,6 +4,7 @@ description: Due to a power outage, there will be no badminton session. We apolo
 deadline: 2025-02-12
 date: 2025-02-12
 tags: [update, feed_item]
+image: /asset/lights-out.jpg
 ---
 
 Due to a power outage, there will be **no badminton session**. We apologize for the inconvenience and appreciate your understanding.  
