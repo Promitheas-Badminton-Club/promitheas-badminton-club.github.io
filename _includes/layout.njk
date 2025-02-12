@@ -330,6 +330,11 @@
       padding-left: 1ch;
       margin: 0.5rem 0;
     }
+
+    .update li a {
+      display: block;
+    }
+
   </style>
   <ol class="update">
 
@@ -398,7 +403,14 @@
       {% if date %}
         <time>{{date | date(lang)}}</time>
       {% endif %}
+      {% from "socials.njk" import socials %}
+      {% if noindex or nosocials %}
+        <!-- Hiding socials -->
+      {% else %}
+        {{ socials(page.url | withDomain) }}
+      {% endif %}
     </p>
+
 
     {% if podcast %}
     <style>
