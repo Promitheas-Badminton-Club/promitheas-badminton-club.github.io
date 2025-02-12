@@ -333,7 +333,7 @@
   </style>
   <ol class="update">
 
-    {% for item in collections.update | unexpired %}
+    {% for item in collections.update | reverse | unexpired %}
       <li lang="{{item.data.lang}}">
         <a href="{{item.url}}">
           <span style="display: block; font-size: 60%; opacity: 0.69;">
