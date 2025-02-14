@@ -333,7 +333,7 @@
             "@type": "ListItem",
             "position": {{ loop.index }},
             "name": "{{ item.data.title }}",
-            "item": "{{ item.url }}"
+            "item": "{{ item.url | withDomain }}"
           }{% if not loop.last %},{% endif %}
         {% endfor %}
       ]
