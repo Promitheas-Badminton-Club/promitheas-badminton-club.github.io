@@ -157,6 +157,9 @@ It’s not just about winning—it’s about gaining new playing experience, tra
 </content:encoded>
 
     
+    <media:content url="https://badmintonpaphos.com/asset/website-updates.png" medium="image" />
+    <itunes:image href="https://badmintonpaphos.com/asset/website-updates.png" />
+    
 
     
   </item>
