@@ -8,7 +8,7 @@ layout: false
     {% for page in collections.all | published %}
        {% if not page.data.draft %}
         <url>
-            <loc>{{ site.url }}{{ page.url | url }}</loc>
+            <loc>{{ page.url | withDomain }}</loc>
             <lastmod>{{ page.date.toISOString() }}</lastmod>
             <changefreq>{{ page.data.changeFreq if page.data.changeFreq else "monthly" }}</changefreq>
         </url>
