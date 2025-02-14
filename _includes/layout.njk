@@ -320,6 +320,22 @@
         }
       ]
     }
+
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {% for item in collections.all | breadcrumbs(page.url) %}
+          {
+            "@type": "ListItem",
+            "position": {{ loop.index }},
+            "name": "{{ item.data.title }}",
+            "item": "{{ item.url }}"
+          }{% if not loop.last %},{% endif %}
+        {% endfor %}
+      ]
+    }
+    
   </script>
 
   
@@ -439,15 +455,15 @@
   <!--
   <nav class="breadcrumbs">
     <ul>
-    {% for crumb in page.url | breadcrumb  %}
+      {% for crumb in collections.all | breadcrumbs(page.url) %}
       <li>
-        <a href="{{crumb.url}}">{{crumb.name}}</a>
+      <a href="{{crumb.url}}">{{crumb.data.title}}</a>
       </li>
-    {% endfor %}
-
+      {% endfor %}
     </ul>
   </nav>
   -->
+
     <h1>
       {{ title }}
     </h1>

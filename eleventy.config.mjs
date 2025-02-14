@@ -34,15 +34,17 @@ export default function (eleventyConfig) {
     { url: "/en/post/", name: "Posts" },
     { url: "/en/event/", name: "Events" },
     { url: "/en/speech/", name: "Speeches" },
+    { url: "/competition/", name: "Competition"},
   ];
 
   eleventyConfig.addFilter("urlencode", (str) => {
     return encodeURIComponent(str);
   });
-  eleventyConfig.addFilter("breadcrumb", function (currentUrl) {
-    return breadcrumbNamesArray.filter(({ url }) => {
-      return currentUrl.startsWith(url) && currentUrl !== url;
-    });
+
+  eleventyConfig.addFilter('breadcrumbs', function (items, url) {
+    return items
+      .filter(item => item.url !== '/' && url.startsWith(item.url))
+      .sort((a, b) => a.url.length - b.url.length);
   });
 
   eleventyConfig.addShortcode("renderlayoutblock", function (name) {
