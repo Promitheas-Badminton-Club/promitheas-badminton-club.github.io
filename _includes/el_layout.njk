@@ -1,0 +1,9 @@
+{% extends 'layout.njk' %}
+
+{% block menu %}
+<ul>
+  <li><a {{currentPage("/el/kids")}}>Παιδιά 🏸</a></li>
+  <li><a {{currentPageExact("/el/")}}>Ενήλικες</a></li>
+  <li><a {{currentPage("/competition")}}>Διαγωνισμός</a></li>
+</ul>
+{% endblock %}

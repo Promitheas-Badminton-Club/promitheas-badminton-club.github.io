@@ -1,3 +1,4 @@
 {
-	"lang": "el"
+	"lang": "el",
+	"layout": "el_layout.njk"
 }
