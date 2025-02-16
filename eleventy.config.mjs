@@ -261,9 +261,14 @@ export default function (eleventyConfig) {
     return items.filter(item => !item.data.tags?.includes('published'))
   });
 
-  eleventyConfig.addFilter("excludes", function (items) {
+  eleventyConfig.addFilter("excludes", function (items, tag) {
     debug(items)
-    return !items?.includes('published')
+    return !items?.includes(tag)
+  })
+
+  eleventyConfig.addFilter("includes", function (items, tag) {
+    debug(items)
+    return items?.includes(tag)
   })
 
   return {

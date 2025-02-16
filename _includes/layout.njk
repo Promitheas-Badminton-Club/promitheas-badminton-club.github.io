@@ -268,6 +268,28 @@
     }, 1000)
   </script>
 
+  {% if tags | includes('event') %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "{{title}}",
+    "startDate": "{{deadline}}",
+    "location": {
+      "@type": "Place",
+      "name": "Promitheas Badminton Club",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Paphos",
+        "addressLocality": "Paphos",
+        "addressCountry": "CY"
+      }
+    },
+    "url": "{{page.url}}"
+  }
+  </script>
+  {% endif %}
+
   <script type="application/ld+json">
     {{jsonld | safe}}
   </script>
