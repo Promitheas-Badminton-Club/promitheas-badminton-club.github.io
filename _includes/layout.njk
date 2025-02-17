@@ -76,8 +76,10 @@
     }
 
     .hehe {
+      height: 20rem;
       position: absolute;
       right: 0;
+      bottom: 0;
       z-index: -1;
       opacity: .5;
     }
@@ -192,6 +194,8 @@
 
     body {
       word-wrap: break-word;
+      position: relative;
+      padding-bottom: 15rem;
     }
 
     figure embed {
@@ -384,10 +388,6 @@
     opacity: 0.04;
     filter: blur(30px);
   }
-
-    main {
-      position: relative;
-    }
 
     .subtle {
       opacity: 0.8;
@@ -667,8 +667,6 @@
   {% endif %}
 
 
-  <img class="hehe" src="https://www.animatedimages.org/data/media/417/animated-badminton-image-0053.gif" border="0" aria-hidden="true" alt="animated-badminton-image-0053">
-
   <footer class="no-print">
 
     <p>
@@ -699,6 +697,8 @@
 
   {% renderOnce %}
   {% endrenderOnce %}
+
+  <img eleventy:ignore class="hehe" src="https://www.animatedimages.org/data/media/417/animated-badminton-image-0053.gif" border="0" aria-hidden="true" alt="animated-badminton-image-0053">
 
   </body>
 
