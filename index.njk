@@ -33,20 +33,61 @@ Experience inclusive badminton at Promitheas Badminton Club in Paphos, Cyprus. E
 ## Pinned
 {% endmarkdown %}
 
-<div class="card-grid">
-{% for item in collections.spotlight | published | reverse %}
-    {{card(
-    item.data.title,
-    podcast=item.data.podcast,
-    content=item.data.description,
-    href=item.url,
-    lang=item.data.lang,
-    lang_dir=item.data.lang_dir,
-    location=item.data.location,
-    image=item.data.image
-  )}}
-{% endfor %}
-</div>
+<style>
+.pinned {
+  list-style-type: none;
+  padding: 0;
+}
+
+.pinned li {
+  position: relative;
+  border-left: 1px solid var(--accent);
+  padding-left: 1ch;
+}
+
+.pinned p {
+  margin-top: 0;
+}
+
+.pinned li:focus-within, .pinned li:hover {
+  outline: 1px solid var(--accent);
+  outline-offset: 0;
+}
+
+.pinned a::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.pinned a {
+  display: inline-block;
+  outline: none;
+  underline: none;
+}
+
+.pinned h3 {
+  margin-left: 0;
+  margin-top: 0;
+}
+
+</style>
+
+<ol class="pinned">
+  {% for item in collections.spotlight | lang_sort %}
+    <li lang="{{item.data.lang}}" dir="{{item.data.lang_dir}}">
+      <a href="{{item.url}}">
+        <h3>
+        {{item.data.title}}
+        </h3>
+      </a>
+      <p>{{item.data.description | truncate(50)}}</p>
+    </li>
+  {% endfor %}
+</ol>
 
 {% markdown %}
 ## Updates

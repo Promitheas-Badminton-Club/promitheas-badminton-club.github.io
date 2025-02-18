@@ -56,6 +56,18 @@ export default function (eleventyConfig) {
     return str.length > n ? str.slice(0, n - 1) + "…" : str;
   });
 
+  eleventyConfig.addFilter("lang_sort", function (items) {
+      const langOrder = ['en', 'ru', 'el'];
+
+      debug(items)
+      return items.sort((a, b) => {
+          const indexA = langOrder.indexOf(a.data.lang);
+          const indexB = langOrder.indexOf(b.data.lang);
+
+          return (indexA === -1 ? langOrder.length : indexA) - (indexB === -1 ? langOrder.length : indexB);
+      });
+  });
+
   eleventyConfig.addPairedShortcode("layoutblock", function (content, name) {
     this.page.layoutblock = this.page.layoutblock ?? {};
     this.page.layoutblock[name] = content;
@@ -153,8 +165,6 @@ export default function (eleventyConfig) {
     .use(markdownAnchor, {
       level: 2,
       permalink: true,
-      permalinkSymbol: "#", // Optional: Adjust symbol for visual clarity
-      permalinkBefore: true,
       permalinkClass: "header-anchor", // Apply consistent styling if needed
       permalinkAttrs: (slug, state) => ({
         "aria-label": `Section titled "${slug}"`, // Provide a descriptive label
