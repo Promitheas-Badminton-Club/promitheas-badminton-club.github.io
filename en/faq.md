@@ -1,6 +1,8 @@
 ---
 title: Frequently Asked Questions
-tags: published
+description: Promitheas Badminton Club in Paphos, Cyprus, offers a welcoming environment for both beginners and seasoned players. To help you get started, here are answers to some frequently asked questions.
+tags: [published, spotlight]
+date: 2025-02-12
 jsonld: |
   {
     "@context": "https://schema.org",
@@ -72,7 +74,7 @@ Make sure you’re geared up with comfortable attire for easy movement, stay hyd
 
 ## How can I get better at badminton?
 
-Looking to level up your badminton skills? We’ve curated a collection of top-notch instructional videos on YouTube. Dive in and enhance your gameplay! Check them out [here](https://www.youtube.com).
+Looking to level up your badminton skills? We’ve curated a collection of top-notch instructional videos on YouTube. Dive in and enhance your gameplay! Check them out [here](https://www.youtube.com/watch?v=OmwJpqelUZU&list=PL6bpt8HeVN__MFrDHiCnbrgtRsJH0lCXR).
 
 ## How can I deregister and request the removal of my data?
 
@@ -82,4 +84,4 @@ You can deregister and request the removal of your data by filling out our [dere
 
 - **From Peyia:** Get on the 615, get off at the Lidl, and walk for 2 minutes.
 
-Any more questions? Feel free to [drop us a line](/en)!
+Any more questions? Feel free to [drop us a line](/#contact)!
