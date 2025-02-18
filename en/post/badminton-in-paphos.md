@@ -1,6 +1,7 @@
 ---
 title: Your guide to Badminton in Paphos
 description: This article is here to help you find the club that best fits you, but also consider mixing and matching clubs to get the most out of your badminton experience. Here are three notable clubs in the area.
+author: Bas
 date: 2025-02-28
 tags: [feed_item, published]
 image: /asset/paphos-badminton.jpg
