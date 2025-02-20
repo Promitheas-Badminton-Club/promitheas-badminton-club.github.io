@@ -349,12 +349,15 @@
     }
   </script>
 
+  {% set breadcrumbItems = collections.all | breadcrumbs(page.url) %}
+
+  {% if breadcrumbItems | length > 0 %}
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {% for item in collections.all | breadcrumbs(page.url) %}
+        {% for item in breadcrumbItems %}
           {
             "@type": "ListItem",
             "position": {{ loop.index }},
@@ -366,6 +369,7 @@
     }
     
   </script>
+  {% endif %}
 
   
 </head>
