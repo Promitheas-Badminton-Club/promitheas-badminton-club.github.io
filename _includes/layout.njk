@@ -274,23 +274,31 @@
 
   {% if tags | includes('event') %}
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Event",
-    "name": "{{title}}",
-    "startDate": "{{deadline}}",
-    "location": {
-      "@type": "Place",
-      "name": "Promitheas Badminton Club",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Paphos",
-        "addressLocality": "Paphos",
-        "addressCountry": "CY"
-      }
-    },
-    "url": "{{page.url}}"
-  }
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "{{title}}",
+      "description": "{{description}}",
+      "image": "{{image | withDomain}}",
+      "organizer": {
+        "@type": "Organization",
+        "name": "Promitheas Badminton Club",
+        "url": "https://badmintonpaphos.com"
+      },
+      "startDate": "{{deadline}}",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Promitheas Badminton Club",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Paphos",
+          "addressLocality": "Paphos",
+          "addressCountry": "CY"
+        }
+      },
+      "url": "{{page.url}}"
+    }
   </script>
   {% endif %}
 
