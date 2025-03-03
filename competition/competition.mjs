@@ -85,7 +85,7 @@ export default async function data (url) {
     debug("challengerWins", challengerWins);
     debug("challengedWins", challengedWins);
 
-    if (challengerWins >= 2) {
+    if (challengerWins > challengedWins) {
       // Only swap of challenger has lower rank than challenged.
       if (challengedIndex < challengerIndex) {
         // Remove the challenger from its old spot
