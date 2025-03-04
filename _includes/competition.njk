@@ -7,7 +7,7 @@
       {% endif %}
       <li>
         {{ entry.name }}
-        {% if entry.isFirst %}<span class="medal">🥇</span>{% endif %}
+        {% if entry.isFirst %}<span class="medal">👑</span>{% endif %}
         {% if entry.isSecond %}<span class="medal">🥈</span>{% endif %}
         {% if entry.isThird %}<span class="medal">🥉</span>{% endif %}
       </li>
@@ -49,11 +49,11 @@ Click magnifier to view match in the spreadsheet.
           </a>
         </td>
         <td>
-        {{game.Challenger}} 
+        {{game.Challenger}} <i>{{game.ChallengerRank}}</i>
         </td>
 
         <td>
-        {{game.Challenged}}
+        {{game.Challenged}} <i>{{game.ChallengedRank}}</i>
         </td>
 
         <td>
@@ -76,6 +76,32 @@ Click magnifier to view match in the spreadsheet.
     </a>
   </figcaption>
 </figure>
+
+
+<ol class="list-style-type-none">
+{% for game in games | reverse %}
+  <li>
+    {% if game.challengerWins %}
+      🚀 <b>{{ game.Challenger }}</b> overtook <i>{{ game.Challenged }}</i>  
+      {% if game.ChallengerRank and game.ChallengedRank %}
+        (moving from rank {{ game.ChallengerRank }} to {{ game.ChallengedRank }})
+      {% endif %}
+      with a score of  
+    {% else %}
+      🛡️ <b>{{ game.Challenged }}</b> defended against <i>{{ game.Challenger }}</i>  
+      {% if game.ChallengerRank and game.ChallengedRank %}
+        (keeping rank {{ game.ChallengedRank }} while {{ game.Challenger }} remained at {{ game.ChallengerRank }})
+      {% endif %}
+      with a score of  
+    {% endif %}
+    {% for result in game.Results %}
+      <em>{{ result[0] }}-{{ result[1] }}{% if not loop.last %}, {% endif %}</em>
+    {% endfor %}
+    on <i>{{ game.Timestamp | date }}</i>
+  </li>
+{% endfor %}
+</ol>
+
 
 {% endmacro %}
 

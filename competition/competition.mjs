@@ -85,6 +85,11 @@ export default async function data (url) {
     debug("challengerWins", challengerWins);
     debug("challengedWins", challengedWins);
 
+    record.challengerWins = challengerWins > challengedWins
+
+    record.ChallengerRank = challengerIndex + 1
+    record.ChallengedRank = challengedIndex + 1
+
     if (challengerWins > challengedWins) {
       // Only swap of challenger has lower rank than challenged.
       if (challengedIndex < challengerIndex) {
