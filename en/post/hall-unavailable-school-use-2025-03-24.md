@@ -3,6 +3,7 @@ title: Hall Unavailable Due to School Use
 date: 2025-03-24
 deadline: 2025-03-28
 tags: [update, feed_item]
+image: /asset/school-bell.webp
 noindex: true
 description: The badminton hall will be unavailable on Wednesday and Thursday due to school use. Alternative options are available for some groups.
 ---
