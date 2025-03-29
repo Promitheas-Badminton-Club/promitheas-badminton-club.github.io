@@ -1,7 +1,7 @@
 ---
 title: Hall Unavailable Due to School Use
 date: 2025-03-24
-deadline: 2025-03-28
+deadline: 2025-03-27
 tags: [update, feed_item]
 image: /asset/school-bell.webp
 noindex: true
