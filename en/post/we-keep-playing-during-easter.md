@@ -1,7 +1,7 @@
 ---
 title: We are open during Easter
-date: 2025-04-21
-deadline: 2025-03-28
+date: 2025-04-17
+deadline: 2025-04-21
 tags: [update, feed_item]
 noindex: true
 description: Badminton for both kids and adults will continue as usual during the Easter holidays.
