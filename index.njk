@@ -92,7 +92,7 @@ Experience inclusive badminton at Promitheas Badminton Club in Paphos, Cyprus. E
 {% endmarkdown %}
 
 <div class="card-grid">
-{% for item in collections.feed_item | published | reverse | head(20) %}
+{% for item in collections.feed_item | published | articles | reverse | head(20) %}
 
   {{card(
     item.data.title,
