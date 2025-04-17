@@ -258,10 +258,13 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("published", function (items) {
     return items.filter(item => {
       return item.data.tags?.includes('published');
+    })
   });
 
-  eleventyConfig.addFilter("articles", function (item) {
-    return !item.data.tags?.includes("update")
+  eleventyConfig.addFilter("articles", function (items) {
+    return items.filter(item => {
+      return !item.data.tags?.includes("update")
+    })
   });
 
   const yesterday = new Date();
