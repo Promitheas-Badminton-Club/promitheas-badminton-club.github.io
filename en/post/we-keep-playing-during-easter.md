@@ -2,7 +2,7 @@
 title: We are open during Easter
 date: 2025-04-17
 deadline: 2025-04-21
-tags: [update, feed_item]
+tags: [update, feed_item, published]
 noindex: true
 description: We’re open as usual during the Easter holidays for both kids and adults.
 ---
