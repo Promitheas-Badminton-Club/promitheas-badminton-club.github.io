@@ -1,0 +1,11 @@
+{% macro phone_links(number, person) %}
+  <div class="phone-links">
+    <a href="tel:{{ number | replace(' ', '') }}">
+      📞 Call {{ person }}
+    </a>
+    |
+    <a href="https://wa.me/{{ number | replace(' ', '') | replace('+', '') }}">
+      💬 WhatsApp {{ person }}
+    </a>
+  </div>
+{% endmacro %}
