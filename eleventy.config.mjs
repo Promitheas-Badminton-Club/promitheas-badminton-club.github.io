@@ -261,18 +261,12 @@ export default function (eleventyConfig) {
     })
   });
 
-  eleventyConfig.addFilter("articles", function (items) {
-    return items.filter(item => {
-      return !item.data.tags?.includes("update")
-    })
-  });
-
   const yesterday = new Date();
 
   yesterday.setDate(yesterday.getDate() - 1)
 
   eleventyConfig.addFilter("unexpired", function (items) {
-    return items.filter(item => new Date(item.data.deadline) > yesterday)
+    return items.filter(item => !item.data.deadline || new Date(item.data.deadline) > yesterday)
   })
 
   eleventyConfig.addFilter("unpublished", function (items) {

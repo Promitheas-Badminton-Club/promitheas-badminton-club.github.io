@@ -7,8 +7,6 @@ description: The club will cover the cost for members to attend a certified firs
 image: /asset/first-aid.jpg
 ---
 
-**First Aid Training – Club Will Cover the Cost**
-
 The club is looking for a few members to step forward as **Club Emergency Assistants**—individuals who can provide support in the event of a medical emergency during sessions.
 
 A **professionally run First Aid Course** is available through Emba:
