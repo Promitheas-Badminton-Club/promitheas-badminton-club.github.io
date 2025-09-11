@@ -24,8 +24,8 @@ image: /asset/adults.jpeg
 ## Fees
 
 - **Single Session:** €5
-- **Monthly Membership:** €15
-- **Yearly Membership:** €75
+- **Monthly Membership:** €20
+- **Yearly Membership:** €80
 
 ## Trial
 
