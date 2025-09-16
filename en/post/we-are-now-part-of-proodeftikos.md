@@ -1,6 +1,7 @@
 ---
 title: Promitheas BC is now part of Proodeftikos
 tags: [published, update, feed_item]
+date: 2025-09-01
 deadline: 2025-09-11
 description: Keep reading if you want to know more.
 image: /asset/proodeftikos.jpg
