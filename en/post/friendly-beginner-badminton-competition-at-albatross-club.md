@@ -2,7 +2,7 @@
 title: Friendly Beginner’s Badminton Competition at Albatross Club
 description: We’re excited to announce a friendly badminton competition for beginners, hosted at Albatross Club!
 date: 2025-10-07
-deadline: 2025-10-16
+deadline: 2025-10-17
 tags: [update, feed_item, published]
 ---
 
@@ -12,7 +12,7 @@ We’re excited to announce a **friendly badminton competition for beginners**, 
 
 * **Location:** [Albatross Club](https://maps.app.goo.gl/gLjXCnrJvGVLC9J76)
 * **Event Type:** Friendly competition for beginners
-* **Date:** October 16 2025
+* **Date:** Friday, October 17 2025
 * **Format:**
   * 2 × Men’s Doubles
   * 2 × Women’s Doubles
