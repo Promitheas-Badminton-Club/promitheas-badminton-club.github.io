@@ -13,6 +13,7 @@ We’re excited to announce a **friendly badminton competition for beginners**, 
 * **Location:** [Albatross Club](https://maps.app.goo.gl/gLjXCnrJvGVLC9J76)
 * **Event Type:** Friendly competition for beginners
 * **Date:** Friday, October 17 2025
+* **Time:** 20:00 till 22:00
 * **Format:**
   * 2 × Men’s Doubles
   * 2 × Women’s Doubles
