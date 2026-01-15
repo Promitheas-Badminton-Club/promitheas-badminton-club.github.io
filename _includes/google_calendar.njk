@@ -1,0 +1,15 @@
+{% macro googleCalendar(title, calendarId, calendarTitle) %}
+<details>
+  <summary>🗓️ {{ title or 'Google Calendar' }}</summary>
+  <iframe 
+    loading="lazy" 
+    title="{{ calendarTitle or 'Calendar' }}" 
+    src="https://calendar.google.com/calendar/embed?src={{ calendarId }}&amp;ctz=Asia%2FNicosia&amp;hl={{ lang }}&mode=AGENDA" 
+    style="border:0" 
+    width="100%" 
+    height="600" 
+    frameborder="0" 
+    scrolling="no">
+  </iframe>
+</details>
+{% endmacro %}

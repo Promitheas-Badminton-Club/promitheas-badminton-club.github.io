@@ -1,0 +1,15 @@
+{% macro googleMaps(title, embedUrl) %}
+<details>
+  <summary>📍 {{ title or 'Google Maps' }}</summary>
+  <iframe 
+    loading="lazy" 
+    title="{{ title or 'Location map' }}" 
+    src="{{ embedUrl }}" 
+    width="600" 
+    height="450" 
+    style="border:0" 
+    allowfullscreen="" 
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</details>
+{% endmacro %}
