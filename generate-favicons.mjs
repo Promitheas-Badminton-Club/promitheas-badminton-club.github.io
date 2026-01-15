@@ -2,7 +2,7 @@ import sharp from 'sharp';
 import fs from 'fs';
 import path from 'path';
 
-const logoPath = './asset/logo.jpg';
+const logoPath = './asset/logo.png';
 const assetDir = './asset';
 
 const sizes = [
@@ -15,12 +15,12 @@ const sizes = [
 
 async function generateFavicons() {
   try {
-    console.log('Generating favicons from logo.jpg...');
+    console.log('Generating favicons from logo.png...');
     
     // Generate PNG favicons
     for (const { size, name } of sizes) {
       await sharp(logoPath)
-        .resize(size, size, { fit: 'cover' })
+        .resize(size, size, { fit: 'contain', background: { r: 255, g: 255, b: 255, alpha: 0 } })
         .png()
         .toFile(path.join(assetDir, name));
       console.log(`✓ Generated ${name}`);
@@ -28,15 +28,8 @@ async function generateFavicons() {
     
     // Generate ICO file from 32x32 PNG
     await sharp(logoPath)
-      .resize(32, 32, { fit: 'cover' })
-      .toBuffer()
-      .then(buffer => {
-        // For ICO, we'll create a simple conversion using the PNG
-        // ICO format requires special handling, so we'll use the 32x32 as base
-        return sharp(logoPath)
-          .resize(32, 32, { fit: 'cover' })
-          .toFile(path.join(assetDir, 'favicon.ico'));
-      });
+      .resize(32, 32, { fit: 'contain', background: { r: 255, g: 255, b: 255, alpha: 0 } })
+      .toFile(path.join(assetDir, 'favicon.ico'));
     console.log('✓ Generated favicon.ico');
     
     console.log('\nAll favicons generated successfully!');
