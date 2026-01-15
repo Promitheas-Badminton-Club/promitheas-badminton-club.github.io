@@ -6,6 +6,8 @@ date: 2025-01-26
 image: /asset/kids.jpeg
 ---
 
+{% from "google_calendar.njk" import googleCalendar %}
+
 ## Πρόγραμμα
 
 - **Δευτέρα** (Προπόνηση): 17:00 - 19:00 — Ντέιβι  
@@ -13,10 +15,7 @@ image: /asset/kids.jpeg
 - **Πέμπτη** (Προπόνηση): 17:00 - 19:00 — Τατιάνα  
 - **Σάββατο** (Παιχνίδι στο κλαμπ): 11:00 - 13:00 — Ντέιβι, Τατιάνα, Μπας  
 
-<details>
-  <summary>🗓️ Ημερολόγιο Google</summary>
-  <iframe loading="lazy" title="Παιδικό Ημερολόγιο" src="https://calendar.google.com/calendar/embed?src=df7aa66bfa29f536097c661404e0e3a1c9c9917c01228424627574fbc5cd37a3%40group.calendar.google.com&mode=AGENDA&amp;ctz=Asia%2FNicosia&amp;hl={{lang}}" style="border:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
-</details>
+{{ googleCalendar("Ημερολόγιο Google", "df7aa66bfa29f536097c661404e0e3a1c9c9917c01228424627574fbc5cd37a3@group.calendar.google.com", "Παιδικό Ημερολόγιο") }}
 
 ## Τύποι Προπόνησης
 
