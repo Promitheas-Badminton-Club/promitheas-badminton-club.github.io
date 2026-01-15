@@ -10,6 +10,7 @@ import markdownTOC from "markdown-it-toc-done-right";
 import markdownAnchor from "markdown-it-anchor";
 import feed2json from "feed2json";
 import Debug from 'debug';
+import translations from './_data/translations.mjs';
 
 const debug = Debug('badmintonpaphos')
 
@@ -39,6 +40,10 @@ export default function (eleventyConfig) {
 
   eleventyConfig.addFilter("urlencode", (str) => {
     return encodeURIComponent(str);
+  });
+
+  eleventyConfig.addFilter("t", function (key, lang = "en") {
+    return translations[key]?.[lang] || translations[key]?.["en"] || key;
   });
 
   eleventyConfig.addFilter('breadcrumbs', function (items, url) {
