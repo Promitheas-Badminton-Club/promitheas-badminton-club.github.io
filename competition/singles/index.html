@@ -5,6 +5,8 @@
 
   
 
+  
+
 
   <!-- Theme color -->
   <meta name="theme-color" content="#FFFFFF" media="(prefers-color-scheme: light)">
@@ -512,7 +514,7 @@
 <p>💬 <a href="https://chat.whatsapp.com/CIl4T9qvd4Q1BiYNMVQXp8">Join the chat</a> on WhatsApp to challenge others.</p>
 <blockquote>
 <p>Competition pages are currently only available in English.<br>
-Updates around midnight. Last update at <strong>January 15, 2026 at 05:38</strong> UTC.</p>
+Updates around midnight. Last update at <strong>January 15, 2026 at 05:50</strong> UTC.</p>
 </blockquote>
 <h2 id="ranking" tabindex="-1">Ranking <a class="header-anchor" href="#ranking" aria-label="Section titled &quot;ranking&quot;" title="Link to this section">¶</a></h2>
 
@@ -1073,10 +1075,14 @@ Updates around midnight. Last update at <strong>January 15, 2026 at 05:38</stron
 
   </main>
 
-    <a class="no-print" href="#" id="scrollTopBtn">🔻</a>
+    <a class="no-print" href="#" id="scrollTopBtn" aria-label="Scroll to top">🔻</a>
 
     <script>
       const scrollBtn = document.getElementById("scrollTopBtn");
+      scrollBtn.addEventListener("click", function(e) {
+        e.preventDefault();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
       window.onscroll = function () {
         if (window.scrollY > window.innerHeight / 2) {
           scrollBtn.classList.add("show");
@@ -1088,7 +1094,6 @@ Updates around midnight. Last update at <strong>January 15, 2026 at 05:38</stron
     <style>
 
       #scrollTopBtn {
-        outline: none;
         font-size: 2rem;
         transition: opacity 0.5s ease, transform 0.5s ease;
         text-decoration: none;

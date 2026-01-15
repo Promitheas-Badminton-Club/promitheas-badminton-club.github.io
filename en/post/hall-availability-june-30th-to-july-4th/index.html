@@ -5,6 +5,8 @@
 
   
 
+  
+
 
   <!-- Theme color -->
   <meta name="theme-color" content="#FFFFFF" media="(prefers-color-scheme: light)">
@@ -529,10 +531,14 @@
 
   </main>
 
-    <a class="no-print" href="#" id="scrollTopBtn">🔻</a>
+    <a class="no-print" href="#" id="scrollTopBtn" aria-label="Scroll to top">🔻</a>
 
     <script>
       const scrollBtn = document.getElementById("scrollTopBtn");
+      scrollBtn.addEventListener("click", function(e) {
+        e.preventDefault();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
       window.onscroll = function () {
         if (window.scrollY > window.innerHeight / 2) {
           scrollBtn.classList.add("show");
@@ -544,7 +550,6 @@
     <style>
 
       #scrollTopBtn {
-        outline: none;
         font-size: 2rem;
         transition: opacity 0.5s ease, transform 0.5s ease;
         text-decoration: none;
