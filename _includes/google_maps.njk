@@ -1,10 +1,10 @@
-{% macro googleMaps(title, embedUrl) %}
+{% macro googleMaps(title, embedUrl, lang='en') %}
 <details>
   <summary>📍 {{ title or 'Google Maps' }}</summary>
   <iframe 
     loading="lazy" 
     title="{{ title or 'Location map' }}" 
-    src="{{ embedUrl }}" 
+    src="{{ embedUrl }}&hl={{ lang }}" 
     width="600" 
     height="450" 
     style="border:0" 
