@@ -8,14 +8,14 @@
   {% endif %}
 
 
-  <!-- Expereriment: theme-color -->
+  <!-- Theme color -->
   <meta
     name="theme-color"
     content="#FFFFFF"
     media="(prefers-color-scheme: light)" />
   <meta
     name="theme-color"
-    content="#000000"
+    content="#1e7540"
     media="(prefers-color-scheme: dark)" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -137,8 +137,8 @@
 
     :root, ::backdrop {
       --bg-transparent: #FFFFFF44; /* Semi-transparent white background */
-      --accent: #BB1D2C; /* Dark reddish primary color */
-      --accent-hover: #A11A27; /* Slightly darker shade for hover state */
+      --accent: #1e7540; /* Dark green primary color from logo */
+      --accent-hover: #1b733d; /* Slightly darker shade for hover state */
     }
 
     @media (prefers-color-scheme: dark) {
@@ -146,8 +146,8 @@
       ::backdrop {
         --bg: #000000AA; /* Semi-transparent black background */
         --bg-transparent: #00000044; /* More transparent black background */
-        --accent: #BB1D2C; /* Dark reddish primary color */
-        --accent-hover: #A11A27; /* Slightly darker shade for hover state */
+        --accent: #4eb27e; /* Light green for dark theme (7.99:1 contrast with black) */
+        --accent-hover: #3d9966; /* Slightly darker shade for hover state */
         --accent-bg: #33333366;
       }
     }
