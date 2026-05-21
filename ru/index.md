@@ -31,14 +31,14 @@ image: /asset/adults.jpeg
 
 Мы приветствуем новичков и опытных игроков. Заинтересованы?
 
-1. Приходите в клуб с водой и одеждой, которая позволяет свободно двигаться. Ракетку можно взять напрокат.  
-2. Свяжитесь с нами, если у вас есть вопросы.  
-3. Зарегистрируйтесь после двух пробных занятий.  
+1. Приходите в клуб с водой, обувью и одеждой, которая позволяет свободно двигаться.
+2. Принесите свою ракетку или возьмите одну бесплатно.
+3. Свяжитесь с нами, если у вас есть вопросы.
 
 ## Контакты
 
 💬 [WhatsApp](https://chat.whatsapp.com/LDX0gEpeyzB2VzV7EgThvE) или [Telegram](https://t.me/promitheas_badminton_club_trial/3)
 
-- **Электронная почта:** [tatjana.obraztsov@gmail.com](mailto:tatjana.obraztsov@gmail.com)  
-- **Телефон:** [+357 96012444](tel:+35796012444)  
+- **Электронная почта:** [promitheasb@gmail.com](mailto:promitheasb@gmail.com)
+- **Телефон:** [+357 96 401 987](tel:+35796401987)
 - **Адрес:** [QCH6+455, Пафос, Кипр](https://www.google.com/maps/dir/?api=1&destination=Promitheas+Badminton+Club)
