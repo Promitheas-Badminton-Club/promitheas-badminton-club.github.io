@@ -28,9 +28,9 @@ image: /asset/adults.jpeg
 
 We welcome beginners and experienced players. Interested?
 
-1. Come to the club with water, shoes, and clothing that allows for free movement. You can borrow a racket.
+1. Come to the club with water, shoes, and clothing that allows for free movement.
+2. Bring your racket or borrow one for free.
 2. Contact us if you have any questions.
-3. [Register](https://forms.gle/VRGHEMKVAUHnC435A) after the two times trial period.
 
 ## Contact
 
