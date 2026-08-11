@@ -1,6 +1,6 @@
 ---
 title: Frequently Asked Questions
-description: Promitheas Badminton Club in Paphos, Cyprus, offers a welcoming environment for both beginners and seasoned players. To help you get started, here are answers to some frequently asked questions.
+description: Proodeftikos Badminton Club in Paphos, Cyprus, offers a welcoming environment for both beginners and seasoned players. To help you get started, here are answers to some frequently asked questions.
 tags: [published, spotlight]
 date: 2025-02-12
 jsonld: |

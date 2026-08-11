@@ -25,4 +25,4 @@ We apologize for any inconvenience and appreciate your cooperation. We will keep
 
 Thank you for your support.
 
-*Promitheas Badminton Club*
+*Proodeftikos Badminton Club*

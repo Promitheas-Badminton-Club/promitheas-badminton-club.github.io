@@ -1,6 +1,6 @@
 ---
 title: Ενήλικες
-description: Ανακαλύψτε τον Σύλλογο Μπαντμιντον Προμηθέας στην Πάφο με συνεδρίες για ενήλικες όλων των επιπέδων. Βελτιώστε τις δεξιότητές σας και διατηρηθείτε ενεργοί με συνδρομές.
+description: Ανακαλύψτε τον Σύλλογο Μπαντμιντον Proodeftikos στην Πάφο με συνεδρίες για ενήλικες όλων των επιπέδων. Βελτιώστε τις δεξιότητές σας και διατηρηθείτε ενεργοί με συνδρομές.
 date: 2025-01-25
 tags: [published, spotlight]
 image: /asset/adults.jpeg
@@ -9,7 +9,7 @@ image: /asset/adults.jpeg
 {% from "google_maps.njk" import googleMaps %}
 {% from "google_calendar.njk" import googleCalendar %}
 
-{{ googleMaps("Τοποθεσία", "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d30969.00727662486!2d32.38969882402512!3d34.78775045525753!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14e706f987855cfd%3A0x1c8bf15674db946f!2sPromitheas%20Badminton%20Club!5e0!3m2!1sen!2s!4v1682168635664!5m2!1sen!2s", "el") }}
+{{ googleMaps("Τοποθεσία", "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d30969.00727662486!2d32.38969882402512!3d34.78775045525753!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14e706f987855cfd%3A0x1c8bf15674db946f!2sProodeftikos%20Badminton%20Club!5e0!3m2!1sen!2s!4v1682168635664!5m2!1sen!2s", "el") }}
 
 ## Πρόγραμμα
 
@@ -38,4 +38,4 @@ image: /asset/adults.jpeg
 
 - **Email**: [promitheasb@gmail.com](mailto:promitheasb@gmail.com)
 - **Τηλέφωνο**: [+357 96 401 987](tel:+35796401987)
-- **Διεύθυνση**: [QCH6+455, Πάφος, Κύπρος](https://www.google.com/maps/dir/?api=1&destination=Promitheas+Badminton+Club)
+- **Διεύθυνση**: [QCH6+455, Πάφος, Κύπρος](https://www.google.com/maps/dir/?api=1&destination=Proodeftikos+Badminton+Club)

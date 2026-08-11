@@ -6,7 +6,7 @@ tags: [published, spotlight]
 date: 2025-01-24
 ---
 
-Promitheas BC manages a few ladder tournements.
+Proodeftikos BC manages a few ladder tournements.
 
 - [Singles](./singles)
 - [Doubles](./doubles)

@@ -43,17 +43,17 @@ Saturday is a quieter, more relaxed session, ideal for those who prefer a slower
 
 ---
 
-## Promitheas Badminton Club
+## Proodeftikos Badminton Club
 
-Promitheas Badminton Club manages a **singles and doubles ladder** for the Paphos area, allowing players to compete and track their progress. This system offers an exciting way to challenge others at different skill levels, providing both motivation and the opportunity to connect with fellow badminton enthusiasts.
+Proodeftikos Badminton Club manages a **singles and doubles ladder** for the Paphos area, allowing players to compete and track their progress. This system offers an exciting way to challenge others at different skill levels, providing both motivation and the opportunity to connect with fellow badminton enthusiasts.
 
 https://badmintonpaphos.com
 
 ### Monday: 19:30 – 22:30
-The Monday evening session at Promitheas is typically busy, with a focus on doubles play. The atmosphere is casual, making it a great opportunity to enjoy friendly matches while still getting some competitive action. With players of varying skill levels, it’s an ideal session for those looking to practice their doubles strategies and have fun in a relaxed setting.
+The Monday evening session at Proodeftikos is typically busy, with a focus on doubles play. The atmosphere is casual, making it a great opportunity to enjoy friendly matches while still getting some competitive action. With players of varying skill levels, it’s an ideal session for those looking to practice their doubles strategies and have fun in a relaxed setting.
 
 ### Wednesday: 20:30 – 22:30
-The Wednesday evening session at Promitheas tends to be less busy, making it a great time for focused training and singles play. However, this doesn’t stop many from enjoying doubles matches as well.
+The Wednesday evening session at Proodeftikos tends to be less busy, making it a great time for focused training and singles play. However, this doesn’t stop many from enjoying doubles matches as well.
 
 ---
 
