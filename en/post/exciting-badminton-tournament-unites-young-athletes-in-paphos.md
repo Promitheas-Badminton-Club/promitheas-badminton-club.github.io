@@ -1,13 +1,13 @@
 ---
 title: Exciting Badminton Tournament Unites Young Athletes in Paphos
 image: /asset/u17_feb_15_tournement_participants.jpg
-description: Participants from different badminton clubs of Paphos took part in great event on February 15th at Promitheas Badminton Club.
+description: Participants from different badminton clubs of Paphos took part in great event on February 15th at Proodeftikos Badminton Club.
 author: Bas
 date: 2025-02-16
 tags: [published, feed_item]
 ---
 
-On February 15th, Promitheas Badminton Club hosted a thrilling tournament featuring talented players from various badminton clubs across Paphos.
+On February 15th, Proodeftikos Badminton Club hosted a thrilling tournament featuring talented players from various badminton clubs across Paphos.
 
 ![The Participants](/asset/u17_feb_15_tournement_participants.jpg)
 

@@ -7,14 +7,14 @@ date: 2025-02-10
 deadline: 2025-02-15T13:00
 ---
 
-Promitheas Badminton Club invites young players to an exciting U17 Badminton Tournament on Saturday, **February 15**.
+Proodeftikos Badminton Club invites young players to an exciting U17 Badminton Tournament on Saturday, **February 15**.
 
 This tournament is a great chance for children born in 2009 or later to compete, improve their skills, and enjoy the game with players from different clubs in Paphos and Limassol.
 It’s not just about winning—it’s about gaining new playing experience, training psychological resilience in a competitive setting, and testing their skills against new opponents. These challenges help children grow, adapt to different playing styles, and find motivation to improve!
 
 🏸 Tournament Categories: Boys’ Singles & Girls’ Singles
 🏆 Prizes: Awards for 1st, 2nd, and 3rd places
-📍 Location: Promitheas Badminton Club
+📍 Location: Proodeftikos Badminton Club
 ⏰ Time: Starts at 13:00, finishes before 18:00
 💰 Entry Fee: €5 per participant
 
